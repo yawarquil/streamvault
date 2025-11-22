@@ -1,0 +1,86 @@
+import { useQuery } from "@tanstack/react-query";
+import { Link } from "wouter";
+import { Bookmark, ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import { ShowCard } from "@/components/show-card";
+import type { Show } from "@shared/schema";
+
+interface WatchlistItem {
+  id: string;
+  showId: string;
+  addedAt: string;
+}
+
+export default function Watchlist() {
+  const { data: watchlistItems = [], isLoading: watchlistLoading } = useQuery<WatchlistItem[]>({
+    queryKey: ["/api/watchlist"],
+  });
+
+  const { data: allShows = [], isLoading: showsLoading } = useQuery<Show[]>({
+    queryKey: ["/api/shows"],
+  });
+
+  const isLoading = watchlistLoading || showsLoading;
+
+  // Get the actual show objects from watchlist IDs
+  const watchlistShows = watchlistItems
+    .map((item) => allShows.find((show) => show.id === item.showId))
+    .filter((show): show is Show => show !== undefined);
+
+  return (
+    <div className="min-h-screen bg-background">
+      <div className="container mx-auto px-4 py-8">
+        {/* Header */}
+        <div className="mb-8">
+          <Link href="/">
+            <Button variant="ghost" className="mb-4 gap-2">
+              <ArrowLeft className="w-4 h-4" />
+              Back to Home
+            </Button>
+          </Link>
+          
+          <div className="flex items-center gap-3">
+            <div className="p-3 bg-primary/10 rounded-lg">
+              <Bookmark className="w-8 h-8 text-primary" />
+            </div>
+            <div>
+              <h1 className="text-3xl md:text-4xl font-bold">My Watchlist</h1>
+              <p className="text-muted-foreground mt-1">
+                {watchlistShows.length} {watchlistShows.length === 1 ? 'show' : 'shows'} saved
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Content */}
+        {isLoading ? (
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+            {Array.from({ length: 12 }).map((_, i) => (
+              <Skeleton key={i} className="aspect-[2/3] rounded-md" />
+            ))}
+          </div>
+        ) : watchlistShows.length > 0 ? (
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+            {watchlistShows.map((show) => (
+              <ShowCard key={show.id} show={show} />
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-16">
+            <div className="inline-flex p-4 bg-muted rounded-full mb-4">
+              <Bookmark className="w-12 h-12 text-muted-foreground" />
+            </div>
+            <h2 className="text-2xl font-semibold mb-2">Your watchlist is empty</h2>
+            <p className="text-muted-foreground mb-6">
+              Add shows to your watchlist to watch them later
+            </p>
+            <Link href="/">
+              <Button>Browse Shows</Button>
+            </Link>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

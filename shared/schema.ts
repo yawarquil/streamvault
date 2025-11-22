@@ -1,0 +1,74 @@
+import { sql } from "drizzle-orm";
+import { pgTable, text, varchar, integer, boolean, timestamp } from "drizzle-orm/pg-core";
+import { createInsertSchema } from "drizzle-zod";
+import { z } from "zod";
+
+// Shows table
+export const shows = pgTable("shows", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  title: text("title").notNull(),
+  slug: text("slug").notNull().unique(),
+  description: text("description").notNull(),
+  posterUrl: text("poster_url").notNull(),
+  backdropUrl: text("backdrop_url").notNull(),
+  year: integer("year").notNull(),
+  rating: text("rating").notNull(), // e.g., "TV-MA", "PG-13"
+  imdbRating: text("imdb_rating"), // e.g., "8.5"
+  genres: text("genres").array().notNull(),
+  language: text("language").notNull(),
+  totalSeasons: integer("total_seasons").notNull(),
+  cast: text("cast").array(),
+  creators: text("creators").array(),
+  featured: boolean("featured").default(false),
+  trending: boolean("trending").default(false),
+  category: text("category"), // "action", "drama", "comedy", etc.
+});
+
+// Episodes table
+export const episodes = pgTable("episodes", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  showId: varchar("show_id").notNull(),
+  season: integer("season").notNull(),
+  episodeNumber: integer("episode_number").notNull(),
+  title: text("title").notNull(),
+  description: text("description").notNull(),
+  thumbnailUrl: text("thumbnail_url").notNull(),
+  duration: integer("duration").notNull(), // in minutes
+  googleDriveUrl: text("google_drive_url").notNull(),
+  airDate: text("air_date"),
+});
+
+// Watchlist table (localStorage for MVP)
+export const watchlistSchema = z.object({
+  showId: z.string(),
+  addedAt: z.string(),
+});
+
+// Viewing progress (localStorage for MVP)
+export const viewingProgressSchema = z.object({
+  showId: z.string(),
+  episodeId: z.string(),
+  season: z.number(),
+  episodeNumber: z.number(),
+  progress: z.number(), // percentage 0-100
+  lastWatched: z.string(),
+});
+
+// Insert schemas
+export const insertShowSchema = createInsertSchema(shows).omit({ id: true });
+export const insertEpisodeSchema = createInsertSchema(episodes).omit({ id: true });
+
+// Select types
+export type Show = typeof shows.$inferSelect;
+export type Episode = typeof episodes.$inferSelect;
+export type InsertShow = z.infer<typeof insertShowSchema>;
+export type InsertEpisode = z.infer<typeof insertEpisodeSchema>;
+export type WatchlistItem = z.infer<typeof watchlistSchema>;
+export type ViewingProgress = z.infer<typeof viewingProgressSchema>;
+
+// Category type
+export type Category = {
+  id: string;
+  name: string;
+  slug: string;
+};
