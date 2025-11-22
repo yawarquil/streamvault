@@ -9,7 +9,7 @@ Disallow: /admin
 Disallow: /api/admin/*
 
 # Sitemap
-Sitemap: https://streamvault-production.up.railway.app/sitemap.xml
+Sitemap: https://streamvault.up.railway.app/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1

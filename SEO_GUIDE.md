@@ -108,7 +108,9 @@ If targeting specific regions:
 
 ### Update Base URL
 
-When you have your final domain, update in:
+✅ **ALREADY CONFIGURED** for Railway domain: `https://streamvault.up.railway.app`
+
+If you get a custom domain later, update in:
 
 **1. client/index.html** (lines 17, 21, 24, 29, 32):
 ```html
@@ -116,13 +118,18 @@ When you have your final domain, update in:
 <meta property="og:url" content="https://YOUR-DOMAIN.com/">
 ```
 
-**2. client/public/robots.txt** (line 11):
+**2. client/public/robots.txt** (line 12):
 ```
 Sitemap: https://YOUR-DOMAIN.com/sitemap.xml
 ```
 
 **3. Railway Environment Variable:**
 - Add `BASE_URL=https://YOUR-DOMAIN.com`
+
+**4. server/routes.ts** (line 661):
+```typescript
+const baseUrl = process.env.BASE_URL || "https://YOUR-DOMAIN.com";
+```
 
 ---
 

@@ -658,7 +658,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/sitemap.xml", async (_req, res) => {
     try {
       const shows = await storage.getAllShows();
-      const baseUrl = process.env.BASE_URL || "https://streamvault-production.up.railway.app";
+      const baseUrl = process.env.BASE_URL || "https://streamvault.up.railway.app";
       
       let sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n';
       sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
@@ -669,6 +669,33 @@ export async function registerRoutes(app: Express): Promise<Server> {
       sitemap += '    <changefreq>daily</changefreq>\n';
       sitemap += '    <priority>1.0</priority>\n';
       sitemap += '  </url>\n';
+      
+      // Main navigation pages
+      const mainPages = [
+        { path: '/series', priority: '0.9' },
+        { path: '/movies', priority: '0.9' },
+        { path: '/trending', priority: '0.9' },
+        { path: '/search', priority: '0.7' },
+        { path: '/watchlist', priority: '0.7' }
+      ];
+      
+      for (const page of mainPages) {
+        sitemap += '  <url>\n';
+        sitemap += `    <loc>${baseUrl}${page.path}</loc>\n`;
+        sitemap += '    <changefreq>daily</changefreq>\n';
+        sitemap += `    <priority>${page.priority}</priority>\n`;
+        sitemap += '  </url>\n';
+      }
+      
+      // Category pages
+      const categories = ['action', 'drama', 'comedy', 'thriller', 'romance', 'sci-fi', 'fantasy', 'horror'];
+      for (const category of categories) {
+        sitemap += '  <url>\n';
+        sitemap += `    <loc>${baseUrl}/category/${category}</loc>\n`;
+        sitemap += '    <changefreq>weekly</changefreq>\n';
+        sitemap += '    <priority>0.8</priority>\n';
+        sitemap += '  </url>\n';
+      }
       
       // Show pages
       for (const show of shows) {
