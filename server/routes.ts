@@ -951,10 +951,18 @@ export function setupHTMLHandler(app: Express) {
   // Catch-all route for HTML pages with dynamic meta tag injection
   // Only handle requests that look like page routes, not assets
   app.get("*", async (req, res, next) => {
-    // Skip if this is a request for an asset (has file extension)
     const requestPath = req.path;
-    if (requestPath.match(/\.[a-zA-Z0-9]+$/)) {
-      return next(); // Let static file handler or 404 handle it
+    
+    // Skip if this is a request for an asset
+    // Check for file extensions or common asset paths
+    if (
+      requestPath.match(/\.[a-zA-Z0-9]+$/) ||  // Has file extension
+      requestPath.startsWith('/assets/') ||     // Assets folder
+      requestPath.startsWith('/src/') ||        // Source files (dev)
+      requestPath.startsWith('/@') ||           // Vite internal
+      requestPath === '/favicon.ico'            // Favicon
+    ) {
+      return next(); // Let static file handler handle it
     }
 
     try {
