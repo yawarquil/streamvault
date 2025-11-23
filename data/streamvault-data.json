@@ -3355,11 +3355,12 @@
       "category": "action"
     },
     {
-      "title": "Physics Wallah – Online HINDI",
-      "slug": "physics-wallah-online-hindi",
+      "id": "2a5a2b27-45f0-4a89-bc28-7f7c93312958",
+      "title": "Physics Wallah",
+      "slug": "physics-wallah",
       "description": "Physics Wallah – Online HINDI - Hindi Dubbed Series",
-      "posterUrl": "https://images.unsplash.com/photo-1574267432644-f65e2d32b5c1?w=600&h=900&fit=crop",
-      "backdropUrl": "https://images.unsplash.com/photo-1574267432644-f65e2d32b5c1?w=1920&h=800&fit=crop",
+      "posterUrl": "https://media.themoviedb.org/t/p/w600_and_h900_face/vUfXFT9o0IrAyom5Jps0uhLaiBQ.jpg",
+      "backdropUrl": "https://media.themoviedb.org/t/p/w1066_and_h600_face/uHl4ny9lsIq2U1wovIOGA2RbMKq.jpg",
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "7.5",
@@ -3367,13 +3368,12 @@
         "Drama"
       ],
       "language": "Hindi",
-      "totalSeasons": 2,
+      "totalSeasons": 1,
       "cast": [],
       "creators": [],
       "featured": false,
       "trending": false,
-      "category": "drama",
-      "id": "2a5a2b27-45f0-4a89-bc28-7f7c93312958"
+      "category": "drama"
     },
     {
       "id": "c0470d78-4298-4745-be3d-37ff6ad2fb7e",
@@ -4675,25 +4675,32 @@
       "category": "drama"
     },
     {
-      "title": "Flash and Bone",
-      "slug": "flash-and-bone-tv-series-online-english",
-      "description": "Flash and Bone - Hindi Dubbed Series",
-      "posterUrl": "https://images.unsplash.com/photo-1574267432644-f65e2d32b5c1?w=600&h=900&fit=crop",
-      "backdropUrl": "https://images.unsplash.com/photo-1574267432644-f65e2d32b5c1?w=1920&h=800&fit=crop",
-      "year": 2024,
-      "rating": "TV-14",
-      "imdbRating": "7.5",
+      "id": "c831dc35-3443-49e0-99bd-7c8ec54c55c2",
+      "title": "Flesh and Bone",
+      "slug": "flesh-and-bone",
+      "description": "Claire, a talented but emotionally troubled dancer, joins a company in New York City, and soon finds herself immersed in the tough and often cutthroat world of professional ballet. The dark and gritty series will unflinchingly explore the dysfunction and glamour of the ballet world.",
+      "posterUrl": "https://media.themoviedb.org/t/p/w600_and_h900_face/yP4vPgb7Inpmhxgy9iTEsy1faSy.jpg",
+      "backdropUrl": "https://media.themoviedb.org/t/p/w1066_and_h600_face/ea3RVQjWWzyOHTfIPbHn7CLNcJy.jpg",
+      "year": 2015,
+      "rating": "TV-MA",
+      "imdbRating": "7.8",
       "genres": [
         "Drama"
       ],
-      "language": "Hindi",
+      "language": "English",
       "totalSeasons": 1,
-      "cast": [],
+      "cast": [
+        "Sarah Hay",
+        "Irina Dvorovenko",
+        "Raychel Diane Weiner",
+        "Emily Tyra",
+        "Ben Daniels",
+        "Damon Herriman"
+      ],
       "creators": [],
       "featured": false,
       "trending": false,
-      "category": "drama",
-      "id": "c831dc35-3443-49e0-99bd-7c8ec54c55c2"
+      "category": "drama"
     },
     {
       "id": "bb4364e1-33bc-4a3d-b222-0c3196c57b95",
@@ -35717,5 +35724,5 @@
       "id": "b3b9ee83-5336-4bfc-9f90-342b363beedc"
     }
   ],
-  "lastUpdated": "2025-11-23T19:01:59.504Z"
+  "lastUpdated": "2025-11-23T20:03:16.669Z"
 }
