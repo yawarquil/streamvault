@@ -103,7 +103,16 @@ export function serveStatic(app: Express) {
   }));
 
   // fall through to index.html if the file doesn't exist
-  app.use("*", (req, res) => {
+  app.use("*", (req, res, next) => {
+    console.log(`[Catch-all] Handling request: ${req.method} ${req.path}`);
+    
+    // If this is an asset request that reached here, it means the file doesn't exist
+    // Return 404 instead of serving index.html
+    if (req.path.startsWith('/assets/')) {
+      console.log(`[Catch-all] Asset not found: ${req.path}`);
+      return res.status(404).send('Asset not found');
+    }
+    
     // Check if request is from a social media crawler
     const userAgent = req.headers['user-agent'] || '';
     const isSocialCrawler = 
