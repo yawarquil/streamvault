@@ -97,6 +97,11 @@ export class MemStorage implements IStorage {
       { id: "drama", name: "Drama & Romance", slug: "drama" },
       { id: "comedy", name: "Comedy", slug: "comedy" },
       { id: "horror", name: "Horror & Mystery", slug: "horror" },
+      { id: "romance", name: "Romance", slug: "romance" },
+      { id: "thriller", name: "Thriller", slug: "thriller" },
+      { id: "sci-fi", name: "Sci-Fi & Fantasy", slug: "sci-fi" },
+      { id: "crime", name: "Crime & Mystery", slug: "crime" },
+      { id: "adventure", name: "Adventure", slug: "adventure" },
     ];
     this.loadData();
   }

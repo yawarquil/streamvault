@@ -3,7 +3,9 @@ import { Search, Moon, Sun, Play, Menu, X, Bookmark } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useTheme } from "./theme-provider";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
+import { useQuery } from "@tanstack/react-query";
+import type { Show } from "@shared/schema";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -17,6 +19,12 @@ export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [showResults, setShowResults] = useState(false);
+  const searchRef = useRef<HTMLDivElement>(null);
+
+  const { data: shows } = useQuery<Show[]>({
+    queryKey: ["/api/shows"],
+  });
 
   const navigation = [
     { name: "Home", path: "/" },
@@ -32,11 +40,36 @@ export function Header() {
     { name: "Horror & Mystery", path: "/category/horror" },
   ];
 
+  // Filter shows based on search query
+  const searchResults = searchQuery.trim()
+    ? shows?.filter((show) =>
+        show.title.toLowerCase().includes(searchQuery.toLowerCase())
+      ).slice(0, 5) || []
+    : [];
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
+        setShowResults(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
       window.location.href = `/search?q=${encodeURIComponent(searchQuery)}`;
+      setShowResults(false);
     }
+  };
+
+  const handleSearchChange = (value: string) => {
+    setSearchQuery(value);
+    setShowResults(value.trim().length > 0);
   };
 
   return (
@@ -117,29 +150,77 @@ export function Header() {
 
           {/* Search */}
           {searchOpen ? (
-            <form
-              onSubmit={handleSearch}
-              className="hidden sm:flex items-center gap-2 animate-in fade-in slide-in-from-right-5 duration-200"
-            >
-              <Input
-                type="search"
-                placeholder="Search shows..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-64"
-                autoFocus
-                data-testid="input-search"
-              />
-              <Button
-                type="button"
-                variant="ghost"
-                size="icon"
-                onClick={() => setSearchOpen(false)}
-                data-testid="button-close-search"
+            <div ref={searchRef} className="hidden sm:block relative">
+              <form
+                onSubmit={handleSearch}
+                className="flex items-center gap-2 animate-in fade-in slide-in-from-right-5 duration-200"
               >
-                <X className="h-5 w-5" />
-              </Button>
-            </form>
+                <Input
+                  type="search"
+                  placeholder="Search shows..."
+                  value={searchQuery}
+                  onChange={(e) => handleSearchChange(e.target.value)}
+                  className="w-64"
+                  autoFocus
+                  data-testid="input-search"
+                />
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="icon"
+                  onClick={() => {
+                    setSearchOpen(false);
+                    setShowResults(false);
+                    setSearchQuery("");
+                  }}
+                  data-testid="button-close-search"
+                >
+                  <X className="h-5 w-5" />
+                </Button>
+              </form>
+
+              {/* Live Search Results Dropdown */}
+              {showResults && searchResults.length > 0 && (
+                <div className="absolute top-full mt-2 w-96 bg-background border border-border rounded-lg shadow-lg overflow-hidden z-50">
+                  {searchResults.map((show) => (
+                    <Link key={show.id} href={`/show/${show.slug}`}>
+                      <div
+                        className="flex items-center gap-3 p-3 hover:bg-accent cursor-pointer transition-colors"
+                        onClick={() => {
+                          setShowResults(false);
+                          setSearchQuery("");
+                        }}
+                      >
+                        <img
+                          src={show.posterUrl}
+                          alt={show.title}
+                          className="w-12 h-16 object-cover rounded"
+                        />
+                        <div className="flex-1 min-w-0">
+                          <p className="font-medium truncate">{show.title}</p>
+                          <p className="text-sm text-muted-foreground truncate">
+                            {show.year} • {show.category}
+                          </p>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                  {searchQuery.trim() && (
+                    <Link href={`/search?q=${encodeURIComponent(searchQuery)}`}>
+                      <div
+                        className="p-3 text-center text-sm text-primary hover:bg-accent cursor-pointer border-t border-border"
+                        onClick={() => {
+                          setShowResults(false);
+                          setSearchQuery("");
+                        }}
+                      >
+                        View all results for "{searchQuery}"
+                      </div>
+                    </Link>
+                  )}
+                </div>
+              )}
+            </div>
           ) : (
             <Button
               variant="ghost"
@@ -188,15 +269,61 @@ export function Header() {
         <div className="md:hidden border-t border-border bg-background">
           <div className="container mx-auto px-4 py-4 space-y-2">
             {/* Mobile Search */}
-            <form onSubmit={handleSearch} className="mb-4">
-              <Input
-                type="search"
-                placeholder="Search shows..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                data-testid="input-mobile-search"
-              />
-            </form>
+            <div className="mb-4 relative">
+              <form onSubmit={handleSearch}>
+                <Input
+                  type="search"
+                  placeholder="Search shows..."
+                  value={searchQuery}
+                  onChange={(e) => handleSearchChange(e.target.value)}
+                  data-testid="input-mobile-search"
+                />
+              </form>
+
+              {/* Mobile Live Search Results */}
+              {showResults && searchResults.length > 0 && (
+                <div className="absolute top-full mt-2 w-full bg-background border border-border rounded-lg shadow-lg overflow-hidden z-50">
+                  {searchResults.map((show) => (
+                    <Link key={show.id} href={`/show/${show.slug}`}>
+                      <div
+                        className="flex items-center gap-3 p-3 hover:bg-accent cursor-pointer transition-colors"
+                        onClick={() => {
+                          setShowResults(false);
+                          setSearchQuery("");
+                          setMobileMenuOpen(false);
+                        }}
+                      >
+                        <img
+                          src={show.posterUrl}
+                          alt={show.title}
+                          className="w-12 h-16 object-cover rounded"
+                        />
+                        <div className="flex-1 min-w-0">
+                          <p className="font-medium truncate">{show.title}</p>
+                          <p className="text-sm text-muted-foreground truncate">
+                            {show.year} • {show.category}
+                          </p>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                  {searchQuery.trim() && (
+                    <Link href={`/search?q=${encodeURIComponent(searchQuery)}`}>
+                      <div
+                        className="p-3 text-center text-sm text-primary hover:bg-accent cursor-pointer border-t border-border"
+                        onClick={() => {
+                          setShowResults(false);
+                          setSearchQuery("");
+                          setMobileMenuOpen(false);
+                        }}
+                      >
+                        View all results for "{searchQuery}"
+                      </div>
+                    </Link>
+                  )}
+                </div>
+              )}
+            </div>
 
             {navigation.map((item) => (
               <Link key={item.path} href={item.path}>

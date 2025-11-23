@@ -295,13 +295,26 @@ export async function registerRoutes(app: Express): Promise<Server> {
           continue;
         }
 
+        // Generate thumbnail from Google Drive if not provided
+        let thumbnailUrl = ep.thumbnailUrl;
+        if (!thumbnailUrl && ep.googleDriveUrl) {
+          const driveIdMatch = ep.googleDriveUrl.match(/\/d\/([^\/]+)/);
+          if (driveIdMatch) {
+            const fileId = driveIdMatch[1];
+            thumbnailUrl = `https://drive.google.com/thumbnail?id=${fileId}&sz=w1280`;
+          }
+        }
+        if (!thumbnailUrl) {
+          thumbnailUrl = `https://images.unsplash.com/photo-${1500000000000 + Math.floor(Math.random() * 100000000)}?w=1280&h=720&fit=crop`;
+        }
+
         const newEpisode: InsertEpisode = {
           showId: show.id,
           season: ep.season,
           episodeNumber: ep.episodeNumber,
           title: ep.title || `Episode ${ep.episodeNumber}`,
           description: ep.description || `Episode ${ep.episodeNumber} of ${show.title}`,
-          thumbnailUrl: ep.thumbnailUrl || `https://images.unsplash.com/photo-${1500000000000 + Math.floor(Math.random() * 100000000)}?w=1280&h=720&fit=crop`,
+          thumbnailUrl,
           duration: ep.duration || 45,
           googleDriveUrl: ep.googleDriveUrl,
           airDate: ep.airDate || new Date().toISOString().split("T")[0],
@@ -357,6 +370,37 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Delete all episodes for a show's season
+  app.delete("/api/admin/shows/:showId/seasons/:seasonNumber", requireAdmin, async (req, res) => {
+    try {
+      const { showId, seasonNumber } = req.params;
+      const season = parseInt(seasonNumber);
+      
+      // Get all episodes for this show
+      const allEpisodes = await storage.getEpisodesByShowId(showId);
+      
+      // Filter episodes for this season
+      const seasonEpisodes = allEpisodes.filter(ep => ep.season === season);
+      
+      // Delete each episode
+      let deleted = 0;
+      for (const episode of seasonEpisodes) {
+        await storage.deleteEpisode(episode.id);
+        deleted++;
+      }
+      
+      console.log(`🗑️ Deleted ${deleted} episodes from season ${season}`);
+      
+      res.json({ 
+        success: true, 
+        deleted,
+        season 
+      });
+    } catch (error) {
+      res.status(500).json({ error: "Failed to delete season episodes" });
+    }
+  });
+
   // Import shows and episodes from JSON file
   app.post("/api/admin/import-shows-episodes", requireAdmin, async (req, res) => {
     try {
@@ -390,6 +434,97 @@ export async function registerRoutes(app: Express): Promise<Server> {
         });
       }
 
+      // Handle new format (single show with episodes array)
+      if (importData.showSlug && importData.episodes) {
+        console.log(`📊 Found episodes for show: ${importData.showSlug}`);
+        
+        // Find the show by slug
+        const existingShow = await storage.getShowBySlug(importData.showSlug);
+        
+        if (!existingShow) {
+          return res.status(404).json({ 
+            error: "Show not found", 
+            details: `No show found with slug "${importData.showSlug}". Please create the show first.` 
+          });
+        }
+
+        let episodesImported = 0;
+        let episodesSkipped = 0;
+
+        // Get existing episodes
+        const existingEpisodes = await storage.getEpisodesByShowId(existingShow.id);
+        const existingEpisodeKeys = new Set(
+          existingEpisodes.map(ep => `${ep.season}-${ep.episodeNumber}`)
+        );
+
+        // Import each episode
+        for (const episode of importData.episodes) {
+          const episodeKey = `${episode.seasonNumber}-${episode.episodeNumber}`;
+          
+          if (existingEpisodeKeys.has(episodeKey)) {
+            episodesSkipped++;
+            continue;
+          }
+
+          // Generate thumbnail from Google Drive if not provided
+          let thumbnailUrl = episode.thumbnailUrl;
+          if (!thumbnailUrl && episode.videoUrl) {
+            // Extract Google Drive file ID and create thumbnail URL
+            const driveIdMatch = episode.videoUrl.match(/\/d\/([^\/]+)/);
+            if (driveIdMatch) {
+              const fileId = driveIdMatch[1];
+              thumbnailUrl = `https://drive.google.com/thumbnail?id=${fileId}&sz=w1280`;
+            }
+          }
+          // Fallback to random Unsplash image if still no thumbnail
+          if (!thumbnailUrl) {
+            thumbnailUrl = `https://images.unsplash.com/photo-${1500000000000 + Math.floor(Math.random() * 100000000)}?w=1280&h=720&fit=crop`;
+          }
+
+          const newEpisode: InsertEpisode = {
+            showId: existingShow.id,
+            season: episode.seasonNumber,
+            episodeNumber: episode.episodeNumber,
+            title: episode.title,
+            description: episode.description,
+            thumbnailUrl,
+            googleDriveUrl: episode.videoUrl,
+            duration: episode.duration,
+            airDate: null
+          };
+
+          await storage.createEpisode(newEpisode);
+          episodesImported++;
+        }
+
+        // Update totalSeasons if needed
+        const allEpisodes = await storage.getEpisodesByShowId(existingShow.id);
+        const maxSeason = Math.max(...allEpisodes.map(ep => ep.season));
+        if (maxSeason > existingShow.totalSeasons) {
+          await storage.updateShow(existingShow.id, {
+            totalSeasons: maxSeason
+          });
+          console.log(`📊 Updated totalSeasons to ${maxSeason}`);
+        }
+
+        console.log(`✅ Import complete!`);
+        console.log(`   Episodes imported: ${episodesImported}`);
+        console.log(`   Episodes skipped: ${episodesSkipped}`);
+
+        return res.json({
+          success: true,
+          summary: {
+            showsCreated: 0,
+            showsSkipped: 1,
+            episodesImported,
+            episodesSkipped,
+            showTitle: existingShow.title,
+            totalEpisodes: importData.episodes.length
+          }
+        });
+      }
+
+      // Handle old format (multiple shows with seasons)
       console.log(`📊 Found ${importData.total_shows} shows with ${importData.total_episodes} episodes`);
 
       let showsCreated = 0;

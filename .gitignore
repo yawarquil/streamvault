@@ -26,3 +26,15 @@ Thumbs.db
 .idea
 *.swp
 *.swoAppData/
+
+# Backup files
+*.backup.*.json
+
+# Scripts with API keys (create .env instead)
+update-episode-thumbnails.cjs
+update-episode-info.cjs
+enrich-metadata.cjs
+
+# Temporary scripts
+delete-season.ps1
+add-episodes.ps1

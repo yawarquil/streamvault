@@ -4,11 +4,18 @@ import { ShowCard } from "@/components/show-card";
 import { Skeleton } from "@/components/ui/skeleton";
 import type { Show } from "@shared/schema";
 
-const categoryMap: Record<string, { name: string; genres: string[] }> = {
-  action: { name: "Action & Thriller", genres: ["Action", "Thriller"] },
-  drama: { name: "Drama & Romance", genres: ["Drama", "Romance"] },
-  comedy: { name: "Comedy", genres: ["Comedy"] },
-  horror: { name: "Horror & Mystery", genres: ["Horror", "Mystery"] },
+const categoryMap: Record<string, string> = {
+  action: "Action & Thriller",
+  drama: "Drama & Romance",
+  comedy: "Comedy",
+  horror: "Horror & Mystery",
+  romance: "Romance",
+  thriller: "Thriller",
+  "sci-fi": "Sci-Fi & Fantasy",
+  crime: "Crime & Mystery",
+  adventure: "Adventure",
+  mystery: "Mystery",
+  medical: "Medical",
 };
 
 export default function Category() {
@@ -19,10 +26,10 @@ export default function Category() {
     queryKey: ["/api/shows"],
   });
 
-  const categoryInfo = categoryMap[slug];
+  const categoryName = categoryMap[slug];
 
   const categoryShows = shows?.filter((show) =>
-    show.genres.some((genre) => categoryInfo?.genres.includes(genre))
+    show.category === slug
   ) || [];
 
   if (isLoading) {
@@ -40,7 +47,7 @@ export default function Category() {
     );
   }
 
-  if (!categoryInfo) {
+  if (!categoryName) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
@@ -57,7 +64,7 @@ export default function Category() {
           className="text-3xl md:text-4xl font-bold mb-8"
           data-testid="text-category-title"
         >
-          {categoryInfo.name}
+          {categoryName}
         </h1>
 
         {categoryShows.length > 0 ? (

@@ -1032,80 +1032,80 @@ function AddEpisodeForm({ shows }: { shows: Show[] }) {
 // Import Episodes Form Component
 function ImportEpisodesForm() {
   const { toast } = useToast();
-  const [selectedFile, setSelectedFile] = useState("all_shows_20251120_230844.json");
+  const [selectedFile, setSelectedFile] = useState("love-puzzle.json");
   const [customPath, setCustomPath] = useState("");
   const [useCustomPath, setUseCustomPath] = useState(false);
   const [importResult, setImportResult] = useState<any>(null);
 
-  const baseFolder = "C:\\Users\\yawar\\Desktop\\worthcrete_extracted";
+  const baseFolder = "C:\\Users\\yawar\\Desktop\\StreamVault\\bulk-imports";
   
-  // Available JSON files in the folder
+  // Available JSON files in the folder (slug-named files)
   const availableFiles = [
-    "all_shows_20251120_230844.json",
-    "adamas-online-hindi-dubbed.json",
-    "all-i-want-for-love-is-you-online-hindi-dubbed.json",
-    "aurora-teagarden-mysteries-online-hindi-dubbed.json",
-    "berlin-online-hindi-dubbed.json",
-    "big-mouth-tv-series-online-hindi-dubbed.json",
-    "blanca-online-hindi-dubbed.json",
-    "chilling-adventures-of-sabrina-online-hindi-dubbed.json",
-    "creature-online-hindi-dubbed.json",
-    "descendants-of-the-sun-online-hindi-dubbed.json",
-    "dont-be-shy-online-hindi-dubbed.json",
-    "exploration-method-of-love-tv-series-online-hindi-dubbed.json",
-    "fake-it-till-you-make-it-tv-series-online-hindi-dubbed.json",
-    "feria-the-darkest-light-online-hindi-dubbed.json",
-    "fool-me-once-online-hindi-dubbed.json",
-    "furies-online-hindi-dubbed.json",
-    "gyeongseong-creature-online-hindi-dubbed.json",
-    "hear-me-tv-series-online-hindi-dubbed.json",
-    "house-of-ninjas-online-hindi-dubbed.json",
-    "i-can-see-you-shine-tv-series-online-hindi-dubbed.json",
-    "im-not-a-robot-online-hindi-dubbed.json",
-    "into-the-badlands-online-hindi-dubbed.json",
-    "inventing-anna-online-hindi-dubbed.json",
-    "juvenile-justice-online-hindi-dubbed.json",
-    "last-one-standing-online-hindi-dubbed.json",
-    "lawless-lawyer-tv-series-online-hindi-dubbed.json",
-    "life-tv-series-online-hindi-dubbed.json",
-    "love-puzzle-tv-series-online-hindi-dubbed.json",
-    "lover-or-stranger-tv-series-online-hindi-dubbed.json",
-    "lucifer-online-hindi-dubbed.json",
-    "lupin-online-hindi-dubbed.json",
-    "marry-my-husband-online-hindi-dubbed.json",
-    "midnight-at-the-pera-palace-online-hindi-dubbed.json",
-    "misty-online-hindi-dubbed.json",
-    "money-flower-online-hindi-dubbed.json",
-    "mr-queen-online-hindi-dubbed.json",
-    "my-dearest-tv-series-online-hindi-dubbed.json",
-    "my-family-online-hindi-dubbed.json",
-    "my-lethal-man-online-hindi-dubbed.json",
-    "one-dollar-lawyer-online-hindi-dubbed.json",
-    "orange-is-the-new-black-online-hindi-dubbed.json",
-    "over-water-tv-series-online-hindi-dubbed.json",
-    "penthouse-online-hindi-dubbed.json",
-    "pride-and-prejudice-tv-series-online-hindi-dubbed.json",
-    "queen-of-mystery-online-hindi-dubbed.json",
-    "queenmaker-online-hindi-dubbed.json",
-    "sebastian-fitzeks-therapy-online-hindi-dubbed.json",
-    "sherlock-the-russian-chronicles-online-hindi-dubbed.json",
-    "sketch-online-hindi-dubbed.json",
-    "snowfall-tv-series-online-hindi-dubbed.json",
-    "song-of-the-bandits-online-hindi-dubbed.json",
-    "stranger-tv-series-online-hindi-dubbed.json",
-    "tempted-online-hindi-dubbed.json",
-    "the-deceived-tv-series-online-hindi-dubbed.json",
-    "the-divorce-insurance-tv-series-online-hindi-dubbed.json",
-    "the-ghost-detective-tv-series-online-hindi-dubbed.json",
-    "the-helicopter-heist-tv-series-online-hindi-dubbed.json",
-    "the-untamed-online-hindi-dubbed.json",
-    "the-witcher-blood-origin-online-hindi-dubbed.json",
-    "the-witcher-online-hindi-dubbed.json",
-    "tientsin-mystic-online-hindi-dubbed.json",
-    "victor-lessard-tv-series-online-hindi-dubbed.json",
-    "vikings-online-hindi-dubbed.json",
-    "vincenzo-online-hindi-dubbed.json",
-    "wenderellas-diary-tv-series-online-hindi-dubbed.json",
+    "stranger-things.json",
+    "adamas.json",
+    "all-i-want-for-love-is-you.json",
+    "aurora-teagarden-mysteries.json",
+    "berlin.json",
+    "big-mouth.json",
+    "blanca.json",
+    "chilling-adventures-of-sabrina.json",
+    "creature.json",
+    "descendants-of-the-sun.json",
+    "dont-be-shy.json",
+    "exploration-method-of-love.json",
+    "fake-it-till-you-make-it.json",
+    "feria-the-darkest-light.json",
+    "fool-me-once.json",
+    "furies.json",
+    "gyeongseong-creature.json",
+    "hear-me.json",
+    "house-of-ninjas.json",
+    "i-can-see-you-shine.json",
+    "im-not-a-robot.json",
+    "into-the-badlands.json",
+    "inventing-anna.json",
+    "juvenile-justice.json",
+    "last-one-standing.json",
+    "lawless-lawyer.json",
+    "life.json",
+    "love-puzzle.json",
+    "lover-or-stranger.json",
+    "lucifer.json",
+    "lupin.json",
+    "marry-my-husband.json",
+    "midnight-at-the-pera-palace.json",
+    "misty.json",
+    "money-flower.json",
+    "mr-queen.json",
+    "my-dearest.json",
+    "my-family.json",
+    "my-lethal-man.json",
+    "one-dollar-lawyer.json",
+    "orange-is-the-new-black.json",
+    "over-water.json",
+    "penthouse.json",
+    "pride-and-prejudice.json",
+    "queen-of-mystery.json",
+    "queenmaker.json",
+    "sebastian-fitzeks-therapy.json",
+    "sherlock-the-russian-chronicles.json",
+    "sketch.json",
+    "snowfall.json",
+    "song-of-the-bandits.json",
+    "stranger.json",
+    "tempted.json",
+    "the-deceived.json",
+    "the-divorce-insurance.json",
+    "the-ghost-detective.json",
+    "the-helicopter-heist.json",
+    "the-untamed.json",
+    "the-witcher-blood-origin.json",
+    "the-witcher.json",
+    "tientsin-mystic.json",
+    "victor-lessard.json",
+    "vikings.json",
+    "vincenzo.json",
+    "wenderellas-diary.json",
   ];
   
   const getFilePath = () => {
@@ -1130,9 +1130,12 @@ function ImportEpisodesForm() {
     },
     onSuccess: (data) => {
       setImportResult(data.summary);
+      const message = data.summary?.showTitle 
+        ? `Imported ${data.summary.episodesImported} episodes to "${data.summary.showTitle}"`
+        : `Created ${data.summary?.showsCreated || 0} shows and imported ${data.summary?.episodesImported || 0} episodes`;
       toast({
         title: "Import Completed!",
-        description: `Created ${data.summary.showsCreated} shows and imported ${data.summary.episodesImported} episodes`,
+        description: message,
       });
     },
     onError: (error: Error) => {
@@ -1204,7 +1207,7 @@ function ImportEpisodesForm() {
                   id="customPath"
                   value={customPath}
                   onChange={(e) => setCustomPath(e.target.value)}
-                  placeholder="C:\\Users\\yawar\\Desktop\\worthcrete_extracted\\all_shows_20251120_230844.json"
+                  placeholder="C:\\Users\\yawar\\Desktop\\StreamVault\\bulk-imports\\love-puzzle.json"
                   required
                 />
                 <p className="text-xs text-muted-foreground">
@@ -1240,28 +1243,36 @@ function ImportEpisodesForm() {
                 ✅ Import Summary
               </h3>
               <div className="grid grid-cols-2 gap-3 text-sm">
+                {importResult.showTitle && (
+                  <div className="col-span-2 mb-2">
+                    <p className="text-muted-foreground">Show:</p>
+                    <p className="text-lg font-semibold text-blue-600 dark:text-blue-400">
+                      {importResult.showTitle}
+                    </p>
+                  </div>
+                )}
                 <div className="space-y-1">
                   <p className="text-muted-foreground">Shows Created:</p>
                   <p className="text-2xl font-bold text-green-600 dark:text-green-400">
-                    {importResult.showsCreated}
+                    {importResult.showsCreated || 0}
                   </p>
                 </div>
                 <div className="space-y-1">
                   <p className="text-muted-foreground">Shows Skipped:</p>
                   <p className="text-2xl font-bold text-gray-600 dark:text-gray-400">
-                    {importResult.showsSkipped}
+                    {importResult.showsSkipped || 0}
                   </p>
                 </div>
                 <div className="space-y-1">
                   <p className="text-muted-foreground">Episodes Imported:</p>
                   <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                    {importResult.episodesImported}
+                    {importResult.episodesImported || 0}
                   </p>
                 </div>
                 <div className="space-y-1">
                   <p className="text-muted-foreground">Episodes Skipped:</p>
                   <p className="text-2xl font-bold text-orange-600 dark:text-orange-400">
-                    {importResult.episodesSkipped}
+                    {importResult.episodesSkipped || 0}
                   </p>
                 </div>
               </div>

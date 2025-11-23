@@ -2,7 +2,6 @@ import { useQuery } from "@tanstack/react-query";
 import { HeroCarousel } from "@/components/hero-carousel";
 import { ContentRow } from "@/components/content-row";
 import { Skeleton } from "@/components/ui/skeleton";
-import { AdPlaceholder } from "@/components/ad-placeholder";
 import type { Show, ViewingProgress } from "@shared/schema";
 import { useMemo } from "react";
 
@@ -66,11 +65,6 @@ export default function Home() {
       {/* Hero Carousel */}
       {featured.length > 0 && <HeroCarousel shows={featured} />}
 
-      {/* Header Ad */}
-      <div className="container mx-auto px-4 py-6">
-        <AdPlaceholder type="leaderboard" />
-      </div>
-
       {/* Content Rows */}
       <div className="container mx-auto py-8 space-y-12">
         {trending.length > 0 && (
@@ -95,11 +89,6 @@ export default function Home() {
         )}
 
         {drama.length > 0 && <ContentRow title="Drama & Romance" shows={drama} />}
-
-        {/* Sidebar Ad - In-feed placement */}
-        <div className="px-4 md:px-6">
-          <AdPlaceholder type="rectangle" />
-        </div>
 
         {comedy.length > 0 && <ContentRow title="Comedy" shows={comedy} />}
 
