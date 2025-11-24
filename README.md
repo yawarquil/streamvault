@@ -1,22 +1,24 @@
 # 🎬 StreamVault - Premium Streaming Platform
 
-A professional Netflix-inspired web series streaming platform built with modern web technologies.
+A professional Netflix-inspired streaming platform for both TV shows and movies, built with modern web technologies and featuring Google Drive video integration.
 
 ![StreamVault](https://img.shields.io/badge/StreamVault-Premium-E50914?style=for-the-badge&logo=netflix)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?style=for-the-badge&logo=typescript)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-3.4-06B6D4?style=for-the-badge&logo=tailwindcss)
+![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js)
 
 ---
 
 ## ✨ Features
 
 ### 🎥 **Video Streaming**
-- Netflix-style video player
-- Google Drive integration
-- Progress tracking
-- Auto-play next episode
-- Continue watching
+- Netflix-style video player with Google Drive integration
+- Support for both TV shows and movies
+- Progress tracking with resume functionality
+- Auto-play next episode for shows
+- Continue watching section
+- Episode selection with season navigation
 
 ### 🎨 **Beautiful UI**
 - Netflix-inspired design
@@ -26,18 +28,22 @@ A professional Netflix-inspired web series streaming platform built with modern 
 - Professional components (shadcn/ui)
 
 ### 🔍 **Discovery**
-- Advanced search
-- Category filtering
-- Trending shows
-- Featured carousel
-- Personalized recommendations
+- Advanced search with filters (genre, year range)
+- Live search in header with instant results
+- Category/genre filtering
+- Separate browse pages for shows and movies
+- Trending content sections
+- Featured hero carousel with auto-play
+- TMDB integration for rich metadata
 
 ### 📱 **User Features**
-- Watchlist management
-- Viewing progress
-- Session-based data
-- Mobile responsive
-- Touch-friendly
+- Unified watchlist for shows and movies
+- Viewing progress tracking per episode
+- Share functionality for shows and movies
+- Session-based data storage
+- Fully mobile responsive
+- Touch-friendly interface
+- Dark theme optimized
 
 ### 🛠️ **Tech Stack**
 - **Frontend:** React 18 + TypeScript
@@ -58,8 +64,9 @@ A professional Netflix-inspired web series streaming platform built with modern 
 ### Installation
 
 ```bash
-# Navigate to project
-cd C:\Users\yawar\Downloads\StreamVault\StreamVault
+# Clone the repository
+git clone https://github.com/yawarquil/streamvault.git
+cd streamvault
 
 # Install dependencies
 npm install
@@ -123,9 +130,17 @@ npm run dev          # Start dev server (http://localhost:5000)
 npm run check        # TypeScript type checking
 ```
 
+### Content Management
+```bash
+npm run add-show        # Add show from TMDB
+npm run add-movie       # Add movie from TMDB
+npm run add-top-movies  # Add top 200 movies
+npm run update-shows    # Update show metadata
+```
+
 ### Database
 ```bash
-npm run db:push      # Push schema to PostgreSQL
+npm run db:push         # Push schema to PostgreSQL
 ```
 
 ### Production
@@ -212,13 +227,18 @@ Edit `server/storage.ts` - add shows to the `shows` array
 - `GET /api/shows/search?q=query` - Search shows
 - `GET /api/shows/:slug` - Get show by slug
 
+### Movies
+- `GET /api/movies` - Get all movies
+- `GET /api/movies/:slug` - Get movie by slug
+
 ### Episodes
 - `GET /api/episodes/:showId` - Get episodes for a show
 
 ### Watchlist
-- `GET /api/watchlist` - Get user watchlist
-- `POST /api/watchlist` - Add to watchlist
-- `DELETE /api/watchlist/:showId` - Remove from watchlist
+- `GET /api/watchlist` - Get user watchlist (shows + movies)
+- `POST /api/watchlist` - Add to watchlist (showId or movieId)
+- `DELETE /api/watchlist/show/:showId` - Remove show from watchlist
+- `DELETE /api/watchlist/movie/:movieId` - Remove movie from watchlist
 
 ### Progress
 - `GET /api/progress` - Get viewing progress
@@ -361,12 +381,17 @@ MIT License - feel free to use for personal or commercial projects
 
 ## 🎉 What's New
 
-### Latest Updates
-- ✅ Added working placeholder video
-- ✅ Improved hero carousel
-- ✅ Enhanced UI components
-- ✅ Better mobile responsiveness
-- ✅ Comprehensive documentation
+### Latest Updates (v2.0)
+- ✅ **Full Movie Support** - Browse, watch, and manage movies
+- ✅ **Unified Watchlist** - Combined shows and movies with tabs
+- ✅ **Enhanced Search** - Filter by genre, year, with scrollable sidebar
+- ✅ **Consistent UI** - Matching card designs for shows and movies
+- ✅ **Share Functionality** - Share shows and movies with friends
+- ✅ **TMDB Integration** - Rich metadata from The Movie Database
+- ✅ **200+ Movies** - Pre-loaded with top-rated movies
+- ✅ **Category Pages** - Browse by genre with show/movie filtering
+- ✅ **Clean Design** - Removed genre badges, improved spacing
+- ✅ **Better Metadata** - Shows display seasons, movies display duration
 
 ---
 
