@@ -121,13 +121,13 @@ export function ShowCard({
 
               {/* Genres */}
               <div className="flex flex-wrap gap-1">
-                {show.genres.slice(0, 2).map((genre) => (
+                {show.genres?.split(',').slice(0, 2).map((genre) => (
                   <Badge
-                    key={genre}
+                    key={genre.trim()}
                     variant="secondary"
                     className="text-xs py-0 h-5"
                   >
-                    {genre}
+                    {genre.trim()}
                   </Badge>
                 ))}
               </div>

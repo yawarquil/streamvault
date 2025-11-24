@@ -10,23 +10,11 @@
       "year": 2016,
       "rating": "TV-14",
       "imdbRating": "8.6",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Mystery",
-        "Action & Adventure"
-      ],
+      "genres": "Sci-Fi & Fantasy, Mystery, Action & Adventure",
       "language": "English",
       "totalSeasons": 5,
-      "cast": [
-        "Millie Bobby Brown",
-        "Finn Wolfhard",
-        "Gaten Matarazzo",
-        "Caleb McLaughlin",
-        "David Harbour"
-      ],
-      "creators": [
-        "The Duffer Brothers"
-      ],
+      "cast": "Millie Bobby Brown, Finn Wolfhard, Gaten Matarazzo, Caleb McLaughlin, David Harbour",
+      "creators": "The Duffer Brothers",
       "featured": true,
       "trending": true,
       "category": "action"
@@ -41,22 +29,11 @@
       "year": 2008,
       "rating": "TV-MA",
       "imdbRating": "8.9",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "English",
       "totalSeasons": 5,
-      "cast": [
-        "Bryan Cranston",
-        "Aaron Paul",
-        "Anna Gunn",
-        "RJ Mitte",
-        "Dean Norris"
-      ],
-      "creators": [
-        "Vince Gilligan"
-      ],
+      "cast": "Bryan Cranston, Aaron Paul, Anna Gunn, RJ Mitte, Dean Norris",
+      "creators": "Vince Gilligan",
       "featured": true,
       "trending": true,
       "category": "drama"
@@ -71,21 +48,11 @@
       "year": 2016,
       "rating": "TV-MA",
       "imdbRating": "8.2",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 6,
-      "cast": [
-        "Claire Foy",
-        "Olivia Colman",
-        "Vanessa Kirby",
-        "Imelda Staunton",
-        "Jonathan Pryce"
-      ],
-      "creators": [
-        "Peter Morgan"
-      ],
+      "cast": "Claire Foy, Olivia Colman, Vanessa Kirby, Imelda Staunton, Jonathan Pryce",
+      "creators": "Peter Morgan",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -100,22 +67,11 @@
       "year": 2017,
       "rating": "TV-MA",
       "imdbRating": "8.2",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "Spanish",
-      "totalSeasons": 3,
-      "cast": [
-        "Úrsula Corberó",
-        "Itziar Ituño",
-        "Álvaro Morte",
-        "Pedro Alonso",
-        "Miguel Herrán"
-      ],
-      "creators": [
-        "Álex Pina"
-      ],
+      "totalSeasons": 5,
+      "cast": "Úrsula Corberó, Itziar Ituño, Álvaro Morte, Pedro Alonso, Miguel Herrán",
+      "creators": "Álex Pina",
       "featured": true,
       "trending": true,
       "category": "drama"
@@ -130,21 +86,11 @@
       "year": 2005,
       "rating": "TV-14",
       "imdbRating": "8.6",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": "Comedy",
       "language": "English",
       "totalSeasons": 9,
-      "cast": [
-        "Rainn Wilson",
-        "John Krasinski",
-        "Jenna Fischer",
-        "Leslie David Baker",
-        "Brian Baumgartner"
-      ],
-      "creators": [
-        "Greg Daniels"
-      ],
+      "cast": "Rainn Wilson, John Krasinski, Jenna Fischer, Leslie David Baker, Brian Baumgartner",
+      "creators": "Greg Daniels",
       "featured": false,
       "trending": true,
       "category": "comedy"
@@ -159,25 +105,11 @@
       "year": 2017,
       "rating": "TV-MA",
       "imdbRating": "8.4",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Sci-Fi & Fantasy",
-        "Mystery"
-      ],
+      "genres": "Crime, Drama, Sci-Fi & Fantasy, Mystery",
       "language": "German",
       "totalSeasons": 3,
-      "cast": [
-        "Louis Hofmann",
-        "Lisa Vicari",
-        "Andreas Pietschmann",
-        "Maja Schöne",
-        "Stephan Kampwirth"
-      ],
-      "creators": [
-        "Baran bo Odar",
-        "Jantje Friese"
-      ],
+      "cast": "Louis Hofmann, Lisa Vicari, Andreas Pietschmann, Maja Schöne, Stephan Kampwirth",
+      "creators": "Baran bo Odar, Jantje Friese",
       "featured": false,
       "trending": true,
       "category": "drama"
@@ -192,22 +124,11 @@
       "year": 2013,
       "rating": "TV-MA",
       "imdbRating": "8.5",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "English",
       "totalSeasons": 6,
-      "cast": [
-        "Cillian Murphy",
-        "Paul Anderson",
-        "Sophie Rundle",
-        "Helen McCrory",
-        "Finn Cole"
-      ],
-      "creators": [
-        "Steven Knight"
-      ],
+      "cast": "Cillian Murphy, Paul Anderson, Sophie Rundle, Helen McCrory, Finn Cole",
+      "creators": "Steven Knight",
       "featured": false,
       "trending": true,
       "category": "drama"
@@ -222,24 +143,11 @@
       "year": 2015,
       "rating": "TV-MA",
       "imdbRating": "8.1",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "English",
       "totalSeasons": 3,
-      "cast": [
-        "Pedro Pascal",
-        "Alberto Ammann",
-        "Wagner Moura",
-        "Boyd Holbrook",
-        "Joanna Christie"
-      ],
-      "creators": [
-        "Chris Brancato",
-        "Carlo Bernard",
-        "Doug Miro"
-      ],
+      "cast": "Pedro Pascal, Alberto Ammann, Wagner Moura, Boyd Holbrook, Joanna Christie",
+      "creators": "Chris Brancato, Carlo Bernard, Doug Miro",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -254,23 +162,11 @@
       "year": 2019,
       "rating": "TV-MA",
       "imdbRating": "8.0",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama",
-        "Action & Adventure"
-      ],
+      "genres": "Sci-Fi & Fantasy, Drama, Action & Adventure",
       "language": "English",
       "totalSeasons": 4,
-      "cast": [
-        "Anya Chalotra",
-        "Freya Allan",
-        "Eamon Farren",
-        "Mimî M. Khayisa",
-        "Henry Cavill"
-      ],
-      "creators": [
-        "Lauren Schmidt Hissrich"
-      ],
+      "cast": "Anya Chalotra, Freya Allan, Eamon Farren, Mimî M. Khayisa, Henry Cavill",
+      "creators": "Lauren Schmidt Hissrich",
       "featured": true,
       "trending": true,
       "category": "action"
@@ -285,22 +181,11 @@
       "year": 1994,
       "rating": "TV-14",
       "imdbRating": "8.4",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": "Comedy",
       "language": "English",
       "totalSeasons": 10,
-      "cast": [
-        "Jennifer Aniston",
-        "Courteney Cox",
-        "Lisa Kudrow",
-        "Matt LeBlanc",
-        "Matthew Perry"
-      ],
-      "creators": [
-        "David Crane",
-        "Marta Kauffman"
-      ],
+      "cast": "Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry",
+      "creators": "David Crane, Marta Kauffman",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -315,24 +200,11 @@
       "year": 2011,
       "rating": "TV-MA",
       "imdbRating": "8.5",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama",
-        "Action & Adventure"
-      ],
+      "genres": "Sci-Fi & Fantasy, Drama, Action & Adventure",
       "language": "English",
       "totalSeasons": 8,
-      "cast": [
-        "Peter Dinklage",
-        "Kit Harington",
-        "Nikolaj Coster-Waldau",
-        "Emilia Clarke",
-        "Maisie Williams"
-      ],
-      "creators": [
-        "David Benioff",
-        "D.B. Weiss"
-      ],
+      "cast": "Peter Dinklage, Kit Harington, Nikolaj Coster-Waldau, Emilia Clarke, Maisie Williams",
+      "creators": "David Benioff, D.B. Weiss",
       "featured": true,
       "trending": true,
       "category": "action"
@@ -347,21 +219,11 @@
       "year": 2022,
       "rating": "TV-MA",
       "imdbRating": "8.3",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama",
-        "Action & Adventure"
-      ],
+      "genres": "Sci-Fi & Fantasy, Drama, Action & Adventure",
       "language": "English",
       "totalSeasons": 4,
-      "cast": [
-        "Matt Smith",
-        "Fabien Frankel",
-        "Emma D'Arcy",
-        "Steve Toussaint",
-        "Olivia Cooke"
-      ],
-      "creators": [],
+      "cast": "Matt Smith, Fabien Frankel, Emma D'Arcy, Steve Toussaint, Olivia Cooke",
+      "creators": "",
       "featured": true,
       "trending": true,
       "category": "action"
@@ -376,23 +238,11 @@
       "year": 2020,
       "rating": "TV-14",
       "imdbRating": "7.7",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Action & Adventure"
-      ],
+      "genres": "Mystery, Crime, Action & Adventure",
       "language": "Russian",
       "totalSeasons": 1,
-      "cast": [
-        "Maksim Matveev",
-        "Vladimir Mishukov",
-        "Irina Starshenbaum",
-        "Pavel Maykov",
-        "Evgeniy Dyatlov"
-      ],
-      "creators": [
-        "Andrei Kavun"
-      ],
+      "cast": "Maksim Matveev, Vladimir Mishukov, Irina Starshenbaum, Pavel Maykov, Evgeniy Dyatlov",
+      "creators": "Andrei Kavun",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -407,17 +257,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [],
+      "genres": "",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Kittinan Karnmongkolvamich",
-        "Noh Phouluang Thongprasert",
-        "Prame Nopanut Thanatintrakul",
-        "Radchapon Phornpinit",
-        "Ratchapong Anomakiti"
-      ],
-      "creators": [],
+      "cast": "Kittinan Karnmongkolvamich, Noh Phouluang Thongprasert, Prame Nopanut Thanatintrakul, Radchapon Phornpinit, Ratchapong Anomakiti",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -432,20 +276,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "6.8",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Jun Jong-seo",
-        "Moon Sang-min",
-        "Kim Do-wan",
-        "Bae Yoon-kyung",
-        "Kwon Hae-hyo"
-      ],
-      "creators": [],
+      "cast": "Jun Jong-seo, Moon Sang-min, Kim Do-wan, Bae Yoon-kyung, Kwon Hae-hyo",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -460,19 +295,11 @@
       "year": 2020,
       "rating": "TV-MA",
       "imdbRating": "5.2",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Emily Reid",
-        "Emmett Scanlan",
-        "Paul Mescal",
-        "Catherine Walker",
-        "Eleanor Methven"
-      ],
-      "creators": [],
+      "cast": "Emily Reid, Emmett Scanlan, Paul Mescal, Catherine Walker, Eleanor Methven",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -487,20 +314,11 @@
       "year": 2017,
       "rating": "TV-MA",
       "imdbRating": "7.6",
-      "genres": [
-        "Comedy",
-        "Animation"
-      ],
+      "genres": "Comedy, Animation",
       "language": "English",
       "totalSeasons": 8,
-      "cast": [
-        "Andrew Rannells",
-        "Nick Kroll",
-        "John Mulaney",
-        "Jessi Klein",
-        "Jason Mantzoukas"
-      ],
-      "creators": [],
+      "cast": "Andrew Rannells, Nick Kroll, John Mulaney, Jessi Klein, Jason Mantzoukas",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -515,20 +333,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "6.5",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "Chinese",
       "totalSeasons": 1,
-      "cast": [
-        "Cecilia Boey",
-        "Gao Hanyu",
-        "Ryan Cheng",
-        "Lin Zilu",
-        "Zang Yi Ren"
-      ],
-      "creators": [],
+      "cast": "Cecilia Boey, Gao Hanyu, Ryan Cheng, Lin Zilu, Zang Yi Ren",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -543,17 +352,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [],
+      "genres": "",
       "language": "Chinese",
       "totalSeasons": 1,
-      "cast": [
-        "Regina Lei",
-        "Zhan Huai-yun",
-        "Andy Huang",
-        "Cheng Yu En",
-        "Kim Dong-wook"
-      ],
-      "creators": [],
+      "cast": "Regina Lei, Zhan Huai-yun, Andy Huang, Cheng Yu En, Kim Dong-wook",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -568,20 +371,11 @@
       "year": 2017,
       "rating": "TV-MA",
       "imdbRating": "8.3",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "English",
       "totalSeasons": 6,
-      "cast": [
-        "Damson Idris",
-        "Carter Hudson",
-        "Sergio Peris-Mencheta",
-        "Michael Hyatt",
-        "Amin Joseph"
-      ],
-      "creators": [],
+      "cast": "Damson Idris, Carter Hudson, Sergio Peris-Mencheta, Michael Hyatt, Amin Joseph",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -596,20 +390,11 @@
       "year": 2021,
       "rating": "TV-14",
       "imdbRating": "4.5",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Drama, Mystery",
       "language": "Chinese",
       "totalSeasons": 1,
-      "cast": [
-        "Victoria Song",
-        "Ou Hao",
-        "Ryan Zhang",
-        "He Dujuan",
-        "Dai Jingyao"
-      ],
-      "creators": [],
+      "cast": "Victoria Song, Ou Hao, Ryan Zhang, He Dujuan, Dai Jingyao",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -624,21 +409,11 @@
       "year": 2018,
       "rating": "TV-14",
       "imdbRating": "7.4",
-      "genres": [
-        "Crime",
-        "Action & Adventure",
-        "Drama"
-      ],
+      "genres": "Crime, Action & Adventure, Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Lee Joon-gi",
-        "Seo Yea-ji",
-        "Lee Hye-young",
-        "Choi Min-soo",
-        "Yeom Hye-ran"
-      ],
-      "creators": [],
+      "cast": "Lee Joon-gi, Seo Yea-ji, Lee Hye-young, Choi Min-soo, Yeom Hye-ran",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -653,21 +428,11 @@
       "year": 2016,
       "rating": "TV-14",
       "imdbRating": "8.6",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Mystery",
-        "Action & Adventure"
-      ],
+      "genres": "Sci-Fi & Fantasy, Mystery, Action & Adventure",
       "language": "English",
       "totalSeasons": 5,
-      "cast": [
-        "Millie Bobby Brown",
-        "Finn Wolfhard",
-        "Gaten Matarazzo",
-        "Caleb McLaughlin",
-        "David Harbour"
-      ],
-      "creators": [],
+      "cast": "Millie Bobby Brown, Finn Wolfhard, Gaten Matarazzo, Caleb McLaughlin, David Harbour",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -682,19 +447,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "7.4",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Chinese",
       "totalSeasons": 1,
-      "cast": [
-        "Cai Wenjing",
-        "Elvis Han",
-        "Geng Le",
-        "Bao Shangen",
-        "Dai Yunfan"
-      ],
-      "creators": [],
+      "cast": "Cai Wenjing, Elvis Han, Geng Le, Bao Shangen, Dai Yunfan",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -709,19 +466,11 @@
       "year": 1995,
       "rating": "TV-14",
       "imdbRating": "8.2",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Jennifer Ehle",
-        "Colin Firth",
-        "Susannah Harker",
-        "Crispin Bonham-Carter",
-        "Benjamin Whitrow"
-      ],
-      "creators": [],
+      "cast": "Jennifer Ehle, Colin Firth, Susannah Harker, Crispin Bonham-Carter, Benjamin Whitrow",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -736,20 +485,11 @@
       "year": 2017,
       "rating": "TV-14",
       "imdbRating": "5.6",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "French",
       "totalSeasons": 3,
-      "cast": [
-        "Maxime Mailloux",
-        "Patrice Robitaille",
-        "Julie Le Breton",
-        "Sarah Dagenais-Hakim",
-        "Denis Trudel"
-      ],
-      "creators": [],
+      "cast": "Maxime Mailloux, Patrice Robitaille, Julie Le Breton, Sarah Dagenais-Hakim, Denis Trudel",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -764,21 +504,11 @@
       "year": 2007,
       "rating": "TV-14",
       "imdbRating": "7.7",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
+      "genres": "Drama, Mystery, Crime",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Damian Lewis",
-        "Sarah Shahi",
-        "Brent Sexton",
-        "Adam Arkin",
-        "Donal Logue"
-      ],
-      "creators": [],
+      "cast": "Damian Lewis, Sarah Shahi, Brent Sexton, Adam Arkin, Donal Logue",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -793,20 +523,11 @@
       "year": 2018,
       "rating": "TV-14",
       "imdbRating": "6.5",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Tom Dewispelaere",
-        "Natali Broods",
-        "Tom van Dyck",
-        "Ruth Becquart",
-        "Kevin Janssens"
-      ],
-      "creators": [],
+      "cast": "Tom Dewispelaere, Natali Broods, Tom van Dyck, Ruth Becquart, Kevin Janssens",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -821,20 +542,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "7.2",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "Chinese",
       "totalSeasons": 1,
-      "cast": [
-        "Cecilia Boey",
-        "Yu Menglong",
-        "Liu Jia",
-        "Fan Zhixin",
-        "Wang Qianguo"
-      ],
-      "creators": [],
+      "cast": "Cecilia Boey, Yu Menglong, Liu Jia, Fan Zhixin, Wang Qianguo",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -849,20 +561,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "6.8",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Lee Dong-wook",
-        "Lee Kwang-soo",
-        "Lee Ju-bin",
-        "Lee Da-hee",
-        "Exy"
-      ],
-      "creators": [],
+      "cast": "Lee Dong-wook, Lee Kwang-soo, Lee Ju-bin, Lee Da-hee, Exy",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -877,19 +580,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "7.7",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Rabia Soytürk",
-        "Caner Topçu",
-        "Berk Hakman",
-        "Burak Can",
-        "Ege Kökenli"
-      ],
-      "creators": [],
+      "cast": "Rabia Soytürk, Caner Topçu, Berk Hakman, Burak Can, Ege Kökenli",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -904,21 +599,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "6.9",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Action & Adventure, Drama, Crime",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Mahmut Suvakci",
-        "Ardalan Esmaili",
-        "Iskra Kostic",
-        "Erik Svedberg-Zelman",
-        "Vic Carmen Sonne"
-      ],
-      "creators": [],
+      "cast": "Mahmut Suvakci, Ardalan Esmaili, Iskra Kostic, Erik Svedberg-Zelman, Vic Carmen Sonne",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -933,20 +618,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "8.1",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Drama, Mystery",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Namkoong Min",
-        "Ahn Eun-jin",
-        "Lee Hak-ju",
-        "Lee Da-in",
-        "Kim Yoon-woo"
-      ],
-      "creators": [],
+      "cast": "Namkoong Min, Ahn Eun-jin, Lee Hak-ju, Lee Da-in, Kim Yoon-woo",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -961,20 +637,11 @@
       "year": 2018,
       "rating": "TV-14",
       "imdbRating": "6.6",
-      "genres": [
-        "Action & Adventure",
-        "Crime"
-      ],
+      "genres": "Action & Adventure, Crime",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Choi Daniel",
-        "Park Eun-bin",
-        "Lee Ji-ah",
-        "Kim Won-hae",
-        "Lee Jae-kyoon"
-      ],
-      "creators": [],
+      "cast": "Choi Daniel, Park Eun-bin, Lee Ji-ah, Kim Won-hae, Lee Jae-kyoon",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -989,22 +656,11 @@
       "year": 2017,
       "rating": "TV-14",
       "imdbRating": "6.7",
-      "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
+      "genres": "Drama, Action & Adventure, Mystery, Sci-Fi & Fantasy",
       "language": "Chinese",
       "totalSeasons": 2,
-      "cast": [
-        "Zhang Ming'en",
-        "Chen Yumi",
-        "Wang Zixuan",
-        "Guo Jiulong",
-        "Li Xian"
-      ],
-      "creators": [],
+      "cast": "Zhang Ming'en, Chen Yumi, Wang Zixuan, Guo Jiulong, Li Xian",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1019,21 +675,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "8.4",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy",
-        "Comedy"
-      ],
+      "genres": "Drama, Sci-Fi & Fantasy, Comedy",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Park Min-young",
-        "Na In-woo",
-        "Lee Yi-kyung",
-        "Song Ha-yoon",
-        "Lee Gi-kwang"
-      ],
-      "creators": [],
+      "cast": "Park Min-young, Na In-woo, Lee Yi-kyung, Song Ha-yoon, Lee Gi-kwang",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1048,17 +694,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [],
+      "genres": "",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Kevin O’Sullivan",
-        "Napoleon Highbrou",
-        "Jared V Walker",
-        "Alan Bagh",
-        "Cara Mitsuko"
-      ],
-      "creators": [],
+      "cast": "Kevin O’Sullivan, Napoleon Highbrou, Jared V Walker, Alan Bagh, Cara Mitsuko",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1073,19 +713,11 @@
       "year": 2000,
       "rating": "TV-PG",
       "imdbRating": "7.0",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": "Comedy",
       "language": "English",
       "totalSeasons": 11,
-      "cast": [
-        "Robert Lindsay",
-        "Zoë Wanamaker",
-        "Gabriel Thomson",
-        "Daniela Denby-Ashe",
-        "Keiron Self"
-      ],
-      "creators": [],
+      "cast": "Robert Lindsay, Zoë Wanamaker, Gabriel Thomson, Daniela Denby-Ashe, Keiron Self",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -1100,19 +732,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "6.0",
-      "genres": [
-        "Comedy",
-        "Sci-Fi & Fantasy"
-      ],
+      "genres": "Comedy, Sci-Fi & Fantasy",
       "language": "Chinese",
       "totalSeasons": 1,
-      "cast": [
-        "Lu Yunfeng",
-        "Li Yutong",
-        "Zhao Huanran",
-        "Wen Moyan"
-      ],
-      "creators": [],
+      "cast": "Lu Yunfeng, Li Yutong, Zhao Huanran, Wen Moyan",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -1127,20 +751,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "7.2",
-      "genres": [
-        "Drama",
-        "Action & Adventure"
-      ],
+      "genres": "Drama, Action & Adventure",
       "language": "Japanese",
       "totalSeasons": 1,
-      "cast": [
-        "Kento Kaku",
-        "Yosuke Eguchi",
-        "Tae Kimura",
-        "Kengo Kora",
-        "Aju Makita"
-      ],
-      "creators": [],
+      "cast": "Kento Kaku, Yosuke Eguchi, Tae Kimura, Kengo Kora, Aju Makita",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1155,20 +770,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "7.1",
-      "genres": [
-        "Action & Adventure",
-        "Crime"
-      ],
+      "genres": "Action & Adventure, Crime",
       "language": "French",
       "totalSeasons": 1,
-      "cast": [
-        "Mathieu Kassovitz",
-        "Fatima Adoum",
-        "Marina Foïs",
-        "Lina El Arabi",
-        "Steve Tientcheu"
-      ],
-      "creators": [],
+      "cast": "Mathieu Kassovitz, Fatima Adoum, Marina Foïs, Lina El Arabi, Steve Tientcheu",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1183,19 +789,11 @@
       "year": 2017,
       "rating": "TV-14",
       "imdbRating": "6.8",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Jang Hyuk",
-        "Park Se-young",
-        "Jang Seung-jo",
-        "Lee Mi-sook",
-        "Lee Soon-jae"
-      ],
-      "creators": [],
+      "cast": "Jang Hyuk, Park Se-young, Jang Seung-jo, Lee Mi-sook, Lee Soon-jae",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1210,19 +808,11 @@
       "year": 2018,
       "rating": "TV-14",
       "imdbRating": "7.0",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Woo Do-hwan",
-        "JOY",
-        "Mun Ka-young",
-        "Kim Min-jae",
-        "Shin Sung-woo"
-      ],
-      "creators": [],
+      "cast": "Woo Do-hwan, JOY, Mun Ka-young, Kim Min-jae, Shin Sung-woo",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1237,19 +827,11 @@
       "year": 1998,
       "rating": "TV-14",
       "imdbRating": "4.8",
-      "genres": [
-        "Sci-Fi & Fantasy"
-      ],
+      "genres": "Sci-Fi & Fantasy",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Craig T. Nelson",
-        "Kim Cattrall",
-        "Colm Feore",
-        "Cress Williams",
-        "Michael Reilly Burke"
-      ],
-      "creators": [],
+      "cast": "Craig T. Nelson, Kim Cattrall, Colm Feore, Cress Williams, Michael Reilly Burke",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "sci-fi"
@@ -1264,48 +846,33 @@
       "year": 2022,
       "rating": "TV-MA",
       "imdbRating": "7.4",
-      "genres": [
-        "Comedy",
-        "Mystery",
-        "Drama"
-      ],
+      "genres": "Comedy, Mystery, Drama",
       "language": "Japanese",
       "totalSeasons": 3,
-      "cast": [
-        "Daigo Yamamoto",
-        "Nobuyuki Hayakawa",
-        "Satoshi Mukai",
-        "Hiccorohee",
-        "Shotaro Mamiya"
-      ],
-      "creators": [],
+      "cast": "Daigo Yamamoto, Nobuyuki Hayakawa, Satoshi Mukai, Hiccorohee, Shotaro Mamiya",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
     },
     {
       "id": "1e8605c8-9409-4beb-8091-9231ea5e4773",
-      "featured": false,
-      "totalSeasons": 1,
       "title": "Aurora Teagarden Mysteries",
-      "createdAt": "2025-11-20T22:56:12.274Z",
-      "description": "A compelling mystery series that captivates audiences with its engaging storyline and memorable characters.",
-      "imdbRating": "7.2",
-      "backdropUrl": "https://images.unsplash.com/photo-1574267432644-f65e2d32b5c1?w=1920&h=800&fit=crop",
-      "trending": false,
-      "genres": [
-        "Mystery",
-        "Crime"
-      ],
-      "posterUrl": "https://images.unsplash.com/photo-1574267432644-f65e2d32b5c1?w=600&h=900&fit=crop",
-      "cast": [],
-      "updatedAt": "2025-11-20T22:56:12.274Z",
-      "language": "English",
       "slug": "aurora-teagarden-mysteries",
-      "creators": [],
-      "category": "mystery",
+      "description": "A compelling mystery series that captivates audiences with its engaging storyline and memorable characters.",
+      "posterUrl": "https://images.unsplash.com/photo-1574267432644-f65e2d32b5c1?w=600&h=900&fit=crop",
+      "backdropUrl": "https://images.unsplash.com/photo-1574267432644-f65e2d32b5c1?w=1920&h=800&fit=crop",
       "year": 2015,
-      "rating": "TV-PG"
+      "rating": "TV-PG",
+      "imdbRating": "7.2",
+      "genres": "Mystery, Crime",
+      "language": "English",
+      "totalSeasons": 1,
+      "cast": "",
+      "creators": "",
+      "featured": false,
+      "trending": false,
+      "category": "mystery"
     },
     {
       "id": "96ba5a9e-db44-4668-99ab-480f00c6bff1",
@@ -1317,22 +884,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "8.0",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Mystery",
-        "Action & Adventure",
-        "Drama"
-      ],
+      "genres": "Sci-Fi & Fantasy, Mystery, Action & Adventure, Drama",
       "language": "Korean",
       "totalSeasons": 2,
-      "cast": [
-        "Park Seo-jun",
-        "Han So-hee",
-        "Kim Hae-sook",
-        "Choi Young-jun",
-        "Claudia Kim"
-      ],
-      "creators": [],
+      "cast": "Park Seo-jun, Han So-hee, Kim Hae-sook, Choi Young-jun, Claudia Kim",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1347,20 +903,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "7.4",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
+      "genres": "Action & Adventure, Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Kim Nam-gil",
-        "Seohyun",
-        "You Chea-myung",
-        "Lee Hyun-wook",
-        "Lee Ho-jung"
-      ],
-      "creators": [],
+      "cast": "Kim Nam-gil, Seohyun, You Chea-myung, Lee Hyun-wook, Lee Ho-jung",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1375,21 +922,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "7.1",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
+      "genres": "Drama, Crime, Mystery",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Michelle Keegan",
-        "Adeel Akhtar",
-        "Richard Armitage",
-        "Joanna Lumley",
-        "Emmett Scanlan"
-      ],
-      "creators": [],
+      "cast": "Michelle Keegan, Adeel Akhtar, Richard Armitage, Joanna Lumley, Emmett Scanlan",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1404,21 +941,11 @@
       "year": 2017,
       "rating": "TV-14",
       "imdbRating": "8.3",
-      "genres": [
-        "Comedy",
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
+      "genres": "Comedy, Sci-Fi & Fantasy, Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Yoo Seung-ho",
-        "Chae Soo-bin",
-        "Uhm Ki-joon",
-        "Park Se-wan",
-        "Song Jae-ryong"
-      ],
-      "creators": [],
+      "cast": "Yoo Seung-ho, Chae Soo-bin, Uhm Ki-joon, Park Se-wan, Song Jae-ryong",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1433,21 +960,11 @@
       "year": 2021,
       "rating": "TV-14",
       "imdbRating": "8.5",
-      "genres": [
-        "Action & Adventure",
-        "Comedy",
-        "Drama"
-      ],
+      "genres": "Action & Adventure, Comedy, Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Song Joong-ki",
-        "Jeon Yeo-been",
-        "Ok Taec-yeon",
-        "Kim Yeo-jin",
-        "Kwak Dong-yeon"
-      ],
-      "creators": [],
+      "cast": "Song Joong-ki, Jeon Yeo-been, Ok Taec-yeon, Kim Yeo-jin, Kwak Dong-yeon",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1462,21 +979,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "7.6",
-      "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Crime"
-      ],
+      "genres": "Drama, Action & Adventure, Crime",
       "language": "Spanish",
       "totalSeasons": 1,
-      "cast": [
-        "Pedro Alonso",
-        "Samantha Siqueiros",
-        "Tristán Ulloa",
-        "Michelle Jenner",
-        "Joel Sánchez"
-      ],
-      "creators": [],
+      "cast": "Pedro Alonso, Samantha Siqueiros, Tristán Ulloa, Michelle Jenner, Joel Sánchez",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1491,21 +998,11 @@
       "year": 2019,
       "rating": "TV-14",
       "imdbRating": "8.6",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Action & Adventure, Drama, Mystery",
       "language": "Chinese",
       "totalSeasons": 1,
-      "cast": [
-        "Xiao Zhan",
-        "Wang Yibo",
-        "Wang Zhuocheng",
-        "Xuan Lu",
-        "Meng Ziyi"
-      ],
-      "creators": [],
+      "cast": "Xiao Zhan, Wang Yibo, Wang Zhuocheng, Xuan Lu, Meng Ziyi",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1520,20 +1017,11 @@
       "year": 2021,
       "rating": "TV-14",
       "imdbRating": "7.6",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "Italian",
       "totalSeasons": 3,
-      "cast": [
-        "Maria Chiara Giannetta",
-        "Giuseppe Zeno",
-        "Enzo Paci",
-        "Gualtiero Burzi",
-        "Federica Cacciola"
-      ],
-      "creators": [],
+      "cast": "Maria Chiara Giannetta, Giuseppe Zeno, Enzo Paci, Gualtiero Burzi, Federica Cacciola",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1548,20 +1036,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "7.0",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Drama, Mystery",
       "language": "Chinese",
       "totalSeasons": 1,
-      "cast": [
-        "Li Mozhi",
-        "Fan Zhixin",
-        "Li Yizhen",
-        "Chang Zhekuan",
-        "Li Xinran"
-      ],
-      "creators": [],
+      "cast": "Li Mozhi, Fan Zhixin, Li Yizhen, Chang Zhekuan, Li Xinran",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1576,20 +1055,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "7.1",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
+      "genres": "Mystery, Drama",
       "language": "German",
       "totalSeasons": 1,
-      "cast": [
-        "Stephan Kampwirth",
-        "Trystan Pütter",
-        "Emma Bading",
-        "Helena Zengel",
-        "Andrea Osvárt"
-      ],
-      "creators": [],
+      "cast": "Stephan Kampwirth, Trystan Pütter, Emma Bading, Helena Zengel, Andrea Osvárt",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1604,20 +1074,11 @@
       "year": 2016,
       "rating": "TV-14",
       "imdbRating": "8.4",
-      "genres": [
-        "Crime",
-        "Sci-Fi & Fantasy"
-      ],
+      "genres": "Crime, Sci-Fi & Fantasy",
       "language": "English",
       "totalSeasons": 6,
-      "cast": [
-        "Tom Ellis",
-        "Lauren German",
-        "Kevin Alejandro",
-        "D.B. Woodside",
-        "Lesley-Ann Brandt"
-      ],
-      "creators": [],
+      "cast": "Tom Ellis, Lauren German, Kevin Alejandro, D.B. Woodside, Lesley-Ann Brandt",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "sci-fi"
@@ -1632,21 +1093,11 @@
       "year": 2020,
       "rating": "TV-14",
       "imdbRating": "8.5",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Sci-Fi & Fantasy"
-      ],
+      "genres": "Drama, Comedy, Sci-Fi & Fantasy",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Shin Hye-sun",
-        "Kim Jung-hyun",
-        "Bae Jong-ok",
-        "Kim Tae-woo",
-        "Seol In-a"
-      ],
-      "creators": [],
+      "cast": "Shin Hye-sun, Kim Jung-hyun, Bae Jong-ok, Kim Tae-woo, Seol In-a",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1661,21 +1112,11 @@
       "year": 2013,
       "rating": "TV-MA",
       "imdbRating": "8.1",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "War & Politics"
-      ],
+      "genres": "Action & Adventure, Drama, War & Politics",
       "language": "English",
       "totalSeasons": 6,
-      "cast": [
-        "Katheryn Winnick",
-        "Gustaf Skarsgård",
-        "Alexander Ludwig",
-        "Georgia Hirst",
-        "Peter Franzén"
-      ],
-      "creators": [],
+      "cast": "Katheryn Winnick, Gustaf Skarsgård, Alexander Ludwig, Georgia Hirst, Peter Franzén",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1690,21 +1131,11 @@
       "year": 2022,
       "rating": "TV-MA",
       "imdbRating": "6.6",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Action & Adventure",
-        "Drama"
-      ],
+      "genres": "Sci-Fi & Fantasy, Action & Adventure, Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Sophia Brown",
-        "Laurence O'Fuarain",
-        "Mirren Mack",
-        "Lenny Henry",
-        "Jacob Collins-Levy"
-      ],
-      "creators": [],
+      "cast": "Sophia Brown, Laurence O'Fuarain, Mirren Mack, Lenny Henry, Jacob Collins-Levy",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1719,21 +1150,11 @@
       "year": 2021,
       "rating": "TV-MA",
       "imdbRating": "7.7",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Crime, Drama, Mystery",
       "language": "French",
       "totalSeasons": 3,
-      "cast": [
-        "Omar Sy",
-        "Ludivine Sagnier",
-        "Soufiane Guerrab",
-        "Shirine Boutella",
-        "Etan Simon"
-      ],
-      "creators": [],
+      "cast": "Omar Sy, Ludivine Sagnier, Soufiane Guerrab, Shirine Boutella, Etan Simon",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1748,21 +1169,11 @@
       "year": 2017,
       "rating": "TV-14",
       "imdbRating": "7.6",
-      "genres": [
-        "Comedy",
-        "Mystery",
-        "Crime"
-      ],
+      "genres": "Comedy, Mystery, Crime",
       "language": "Korean",
       "totalSeasons": 2,
-      "cast": [
-        "Choi Kang-hee",
-        "Kwon Sang-woo",
-        "Kim Hyun-sook",
-        "Park Byung-eun",
-        "Oh Min-suk"
-      ],
-      "creators": [],
+      "cast": "Choi Kang-hee, Kwon Sang-woo, Kim Hyun-sook, Park Byung-eun, Oh Min-suk",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -1777,20 +1188,11 @@
       "year": 2015,
       "rating": "TV-14",
       "imdbRating": "7.6",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
+      "genres": "Action & Adventure, Drama",
       "language": "English",
       "totalSeasons": 3,
-      "cast": [
-        "Emily Beecham",
-        "Orla Brady",
-        "Daniel Wu",
-        "Alexia Ioannides",
-        "Aramis Knight"
-      ],
-      "creators": [],
+      "cast": "Emily Beecham, Orla Brady, Daniel Wu, Alexia Ioannides, Aramis Knight",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1805,20 +1207,11 @@
       "year": 2019,
       "rating": "TV-14",
       "imdbRating": "7.3",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "Chinese",
       "totalSeasons": 1,
-      "cast": [
-        "Lu Zhaohua",
-        "Liu Yuhan",
-        "Xie Zhixun",
-        "Han Leyao",
-        "Liu Yinjun"
-      ],
-      "creators": [],
+      "cast": "Lu Zhaohua, Liu Yuhan, Xie Zhixun, Han Leyao, Liu Yinjun",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1833,20 +1226,11 @@
       "year": 2022,
       "rating": "TV-MA",
       "imdbRating": "7.9",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Kim Hye-soo",
-        "Kim Moo-yul",
-        "Lee Sung-min",
-        "Lee Jung-eun",
-        "Lee Sang-hee"
-      ],
-      "creators": [],
+      "cast": "Kim Hye-soo, Kim Moo-yul, Lee Sung-min, Lee Jung-eun, Lee Sang-hee",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1861,21 +1245,11 @@
       "year": 2018,
       "rating": "TV-14",
       "imdbRating": "8.2",
-      "genres": [
-        "Mystery",
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
+      "genres": "Mystery, Sci-Fi & Fantasy, Drama",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Kiernan Shipka",
-        "Ross Lynch",
-        "Lucy Davis",
-        "Miranda Otto",
-        "Chance Perdomo"
-      ],
-      "creators": [],
+      "cast": "Kiernan Shipka, Ross Lynch, Lucy Davis, Miranda Otto, Chance Perdomo",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1890,20 +1264,11 @@
       "year": 2016,
       "rating": "TV-14",
       "imdbRating": "8.4",
-      "genres": [
-        "Drama",
-        "Action & Adventure"
-      ],
+      "genres": "Drama, Action & Adventure",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Song Hye-kyo",
-        "Song Joong-ki",
-        "Kim Ji-won",
-        "Jin Goo",
-        "Onew"
-      ],
-      "creators": [],
+      "cast": "Song Hye-kyo, Song Joong-ki, Kim Ji-won, Jin Goo, Onew",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -1918,19 +1283,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "7.3",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Kim Hee-ae",
-        "Moon So-ri",
-        "Ryu Soo-young",
-        "Seo Yi-sook",
-        "Ok Ja-yeon"
-      ],
-      "creators": [],
+      "cast": "Kim Hee-ae, Moon So-ri, Ryu Soo-young, Seo Yi-sook, Ok Ja-yeon",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1945,17 +1302,11 @@
       "year": 2005,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [],
+      "genres": "",
       "language": "Chinese",
       "totalSeasons": 1,
-      "cast": [
-        "Benny Chan Ho-Man",
-        "Gao Yuanyuan",
-        "Hao Lei",
-        "Ziqi Zhang",
-        "Gua Ah-leh"
-      ],
-      "creators": [],
+      "cast": "Benny Chan Ho-Man, Gao Yuanyuan, Hao Lei, Ziqi Zhang, Gua Ah-leh",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1970,20 +1321,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "6.7",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
+      "genres": "Mystery, Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Ji Sung",
-        "Seo Ji-hye",
-        "Lee Soo-kyung",
-        "Heo Sung-tae",
-        "Oh Dae-hwan"
-      ],
-      "creators": [],
+      "cast": "Ji Sung, Seo Ji-hye, Lee Soo-kyung, Heo Sung-tae, Oh Dae-hwan",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -1998,19 +1340,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Namkoong Min",
-        "Kim Ji-eun",
-        "Park Jin-woo",
-        "Lee Chung-ah",
-        "Choi Dae-hoon"
-      ],
-      "creators": [],
+      "cast": "Namkoong Min, Kim Ji-eun, Park Jin-woo, Lee Chung-ah, Choi Dae-hoon",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2025,20 +1359,11 @@
       "year": 2020,
       "rating": "TV-14",
       "imdbRating": "8.4",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Drama, Mystery",
       "language": "Korean",
       "totalSeasons": 3,
-      "cast": [
-        "Lee Ji-ah",
-        "Kim So-yeon",
-        "Eugene",
-        "Uhm Ki-joon",
-        "Shin Eun-kyung"
-      ],
-      "creators": [],
+      "cast": "Lee Ji-ah, Kim So-yeon, Eugene, Uhm Ki-joon, Shin Eun-kyung",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2053,20 +1378,11 @@
       "year": 2013,
       "rating": "TV-MA",
       "imdbRating": "7.7",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
+      "genres": "Comedy, Drama",
       "language": "English",
       "totalSeasons": 7,
-      "cast": [
-        "Taylor Schilling",
-        "Nick Sandow",
-        "Kate Mulgrew",
-        "Laura Prepon",
-        "Uzo Aduba"
-      ],
-      "creators": [],
+      "cast": "Taylor Schilling, Nick Sandow, Kate Mulgrew, Laura Prepon, Uzo Aduba",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2081,19 +1397,11 @@
       "year": 2022,
       "rating": "TV-MA",
       "imdbRating": "6.8",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Anna Chlumsky",
-        "Julia Garner",
-        "Arian Moayed",
-        "Katie Lowes",
-        "Alexis Floyd"
-      ],
-      "creators": [],
+      "cast": "Anna Chlumsky, Julia Garner, Arian Moayed, Katie Lowes, Alexis Floyd",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2108,21 +1416,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
+      "genres": "Drama, Mystery, Crime",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Hazal Kaya",
-        "Selahattin Paşalı",
-        "Tansu Biçer",
-        "James Chalmers",
-        "Yasemin Szawlowski"
-      ],
-      "creators": [],
+      "cast": "Hazal Kaya, Selahattin Paşalı, Tansu Biçer, James Chalmers, Yasemin Szawlowski",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2137,19 +1435,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "6.6",
-      "genres": [
-        "Sci-Fi & Fantasy"
-      ],
+      "genres": "Sci-Fi & Fantasy",
       "language": "Spanish",
       "totalSeasons": 1,
-      "cast": [
-        "Marta Nieto",
-        "Carla Campra",
-        "Ana Tomeno",
-        "Isak Férriz",
-        "Ángela Cremonte"
-      ],
-      "creators": [],
+      "cast": "Marta Nieto, Carla Campra, Ana Tomeno, Isak Férriz, Ángela Cremonte",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "sci-fi"
@@ -2164,20 +1454,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "5.5",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Rahman",
-        "Neena Gupta",
-        "Sanju Sivaram",
-        "Joy Mathew",
-        "Manesh Krishnan"
-      ],
-      "creators": [],
+      "cast": "Rahman, Neena Gupta, Sanju Sivaram, Joy Mathew, Manesh Krishnan",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2192,20 +1473,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "7.7",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
+      "genres": "Comedy, Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Tamannaah Bhatia",
-        "Diana Penty",
-        "Javed Jaffrey",
-        "Neeraj Kabi",
-        "Sufi Motiwala"
-      ],
-      "creators": [],
+      "cast": "Tamannaah Bhatia, Diana Penty, Javed Jaffrey, Neeraj Kabi, Sufi Motiwala",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2220,20 +1492,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.8",
-      "genres": [
-        "Comedy",
-        "Action & Adventure"
-      ],
+      "genres": "Comedy, Action & Adventure",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Lakshya Lalwani",
-        "Bobby Deol",
-        "Sahher Bambba",
-        "Raghav Juyal",
-        "Mona Singh"
-      ],
-      "creators": [],
+      "cast": "Lakshya Lalwani, Bobby Deol, Sahher Bambba, Raghav Juyal, Mona Singh",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -2248,21 +1511,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.4",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Crime, Drama, Mystery",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Vaani Kapoor",
-        "Vaibhav Raj Gupta",
-        "Surveen Chawla",
-        "Jameel Khan",
-        "Aaditi Pohankar"
-      ],
-      "creators": [],
+      "cast": "Vaani Kapoor, Vaibhav Raj Gupta, Surveen Chawla, Jameel Khan, Aaditi Pohankar",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2277,21 +1530,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "6.9",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
+      "genres": "Action & Adventure, Drama, Sci-Fi & Fantasy",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Samantha Ruth Prabhu",
-        "Varun Dhawan",
-        "Kay Kay Menon",
-        "Kashvi Majmundar",
-        "Simran"
-      ],
-      "creators": [],
+      "cast": "Samantha Ruth Prabhu, Varun Dhawan, Kay Kay Menon, Kashvi Majmundar, Simran",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -2306,20 +1549,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.8",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Shabana Azmi",
-        "Sai Tamhankar",
-        "Jyothika",
-        "Nimisha Sajayan",
-        "Shalini Pandey"
-      ],
-      "creators": [],
+      "cast": "Shabana Azmi, Sai Tamhankar, Jyothika, Nimisha Sajayan, Shalini Pandey",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2334,20 +1568,11 @@
       "year": 2020,
       "rating": "TV-MA",
       "imdbRating": "6.2",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
+      "genres": "Comedy, Drama",
       "language": "Hindi",
       "totalSeasons": 3,
-      "cast": [
-        "Prajakta Koli",
-        "Rohit Saraf",
-        "Rannvijay Singha",
-        "Vidya Malvade",
-        "Muskkaan Jaferi"
-      ],
-      "creators": [],
+      "cast": "Prajakta Koli, Rohit Saraf, Rannvijay Singha, Vidya Malvade, Muskkaan Jaferi",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2362,19 +1587,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "7.0",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Mihir Ahuja",
-        "Mahvash",
-        "Ashish Raghav",
-        "Shivangi Khedkar",
-        "Neil Bhoopalam"
-      ],
-      "creators": [],
+      "cast": "Mihir Ahuja, Mahvash, Ashish Raghav, Shivangi Khedkar, Neil Bhoopalam",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2389,19 +1606,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "3.5",
-      "genres": [
-        "Crime"
-      ],
+      "genres": "Crime",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Ashutosh Rana",
-        "Tejaswi Madivada",
-        "Nandu Vijay Krishna",
-        "Aadarsh Balakrishna",
-        "Priya Anand"
-      ],
-      "creators": [],
+      "cast": "Ashutosh Rana, Tejaswi Madivada, Nandu Vijay Krishna, Aadarsh Balakrishna, Priya Anand",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2416,20 +1625,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama",
-        "Action & Adventure"
-      ],
+      "genres": "Drama, Action & Adventure",
       "language": "Hindi",
       "totalSeasons": 2,
-      "cast": [
-        "Gashmeer Mahajani",
-        "Surbhi Jyoti",
-        "Zayn Ibad Khan",
-        "Shashank Ketkar",
-        "Darshan Pandya"
-      ],
-      "creators": [],
+      "cast": "Gashmeer Mahajani, Surbhi Jyoti, Zayn Ibad Khan, Shashank Ketkar, Darshan Pandya",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -2444,19 +1644,11 @@
       "year": 2018,
       "rating": "TV-14",
       "imdbRating": "6.3",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": "Comedy",
       "language": "English",
       "totalSeasons": 3,
-      "cast": [
-        "Rachel White",
-        "Rajdeep Gupta",
-        "Riya Sen",
-        "Mainak Banerjee",
-        "Payel Sarkar"
-      ],
-      "creators": [],
+      "cast": "Rachel White, Rajdeep Gupta, Riya Sen, Mainak Banerjee, Payel Sarkar",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -2471,19 +1663,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "6.2",
-      "genres": [
-        "Mystery"
-      ],
+      "genres": "Mystery",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Ishwak Singh",
-        "Rasika Dugal",
-        "Shrenik Arora",
-        "Poojan Chhabra",
-        "Arjun Deswal"
-      ],
-      "creators": [],
+      "cast": "Ishwak Singh, Rasika Dugal, Shrenik Arora, Poojan Chhabra, Arjun Deswal",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2498,24 +1682,17 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Nandita Das",
-        "Revathi",
-        "Simran",
-        "Nandish Singh",
-        "Anupriya Caroli"
-      ],
-      "creators": [],
+      "cast": "Nandita Das, Revathi, Simran, Nandish Singh, Anupriya Caroli",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
     },
     {
+      "id": "a4974722-bb7b-4c6a-83b7-bb05513dbd93",
       "title": "Nympho: The Lust Story",
       "slug": "nympho-the-lust-story-tv-series-online-hindi",
       "description": "Nympho: The Lust Story - Hindi Dubbed Series",
@@ -2524,17 +1701,14 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [],
-      "creators": [],
+      "cast": "",
+      "creators": "",
       "featured": false,
       "trending": false,
-      "category": "drama",
-      "id": "a4974722-bb7b-4c6a-83b7-bb05513dbd93"
+      "category": "drama"
     },
     {
       "id": "e999f007-b034-4fc6-bd1d-7fa7b8911e96",
@@ -2546,21 +1720,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
+      "genres": "Drama, Crime, Action & Adventure",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Bhoomika Meena",
-        "Jackie Shroff",
-        "Madhur Mittal",
-        "Sikandar Kher",
-        "Mita Vashisht"
-      ],
-      "creators": [],
+      "cast": "Bhoomika Meena, Jackie Shroff, Madhur Mittal, Sikandar Kher, Mita Vashisht",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -2575,19 +1739,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Sai Deodhar",
-        "Tanvi Mundle",
-        "Sagar Deshmukh",
-        "Chinmay Mandlekar",
-        "Yash Malhotra"
-      ],
-      "creators": [],
+      "cast": "Sai Deodhar, Tanvi Mundle, Sagar Deshmukh, Chinmay Mandlekar, Yash Malhotra",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2602,16 +1758,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
+      "genres": "Mystery, Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Poonam Pandey"
-      ],
-      "creators": [],
+      "cast": "Poonam Pandey",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2626,20 +1777,11 @@
       "year": 1988,
       "rating": "TV-14",
       "imdbRating": "9.8",
-      "genres": [
-        "Documentary",
-        "Drama"
-      ],
+      "genres": "Documentary, Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Roshan Seth",
-        "Om Puri",
-        "Ravi Jhankal",
-        "Ila Arun",
-        "K.K. Raina"
-      ],
-      "creators": [],
+      "cast": "Roshan Seth, Om Puri, Ravi Jhankal, Ila Arun, K.K. Raina",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2654,20 +1796,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "4.3",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
+      "genres": "Comedy, Drama",
       "language": "Hindi",
       "totalSeasons": 3,
-      "cast": [
-        "Aaditya Gupta",
-        "Navika Kotia",
-        "Manav Soneji",
-        "Alisha Parveen",
-        "Ansh Pandey"
-      ],
-      "creators": [],
+      "cast": "Aaditya Gupta, Navika Kotia, Manav Soneji, Alisha Parveen, Ansh Pandey",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2682,19 +1815,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "2.0",
-      "genres": [
-        "Crime"
-      ],
+      "genres": "Crime",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Asha Negi",
-        "Rajeev Siddhartha",
-        "Apeksha Porwal",
-        "Sahil Salathi",
-        "Jason Tham"
-      ],
-      "creators": [],
+      "cast": "Asha Negi, Rajeev Siddhartha, Apeksha Porwal, Sahil Salathi, Jason Tham",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2709,21 +1834,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "7.1",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Mystery, Crime, Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Naga Chaitanya Akkineni",
-        "Parvathy Thiruvothu",
-        "Priya Bhavani Shankar",
-        "Prachi Desai",
-        "Rohini"
-      ],
-      "creators": [],
+      "cast": "Naga Chaitanya Akkineni, Parvathy Thiruvothu, Priya Bhavani Shankar, Prachi Desai, Rohini",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2738,20 +1853,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "7.0",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
+      "genres": "Mystery, Drama",
       "language": "Hindi",
       "totalSeasons": 2,
-      "cast": [
-        "Huma Qureshi",
-        "Avantika Dassani",
-        "Indraneil Sengupta",
-        "Rajit Kapoor",
-        "Avantika Akerkar"
-      ],
-      "creators": [],
+      "cast": "Huma Qureshi, Avantika Dassani, Indraneil Sengupta, Rajit Kapoor, Avantika Akerkar",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2766,14 +1872,11 @@
       "year": 2017,
       "rating": "TV-14",
       "imdbRating": "10.0",
-      "genres": [],
+      "genres": "",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Sanjeeda Sheikh",
-        "Vatsal Sheth"
-      ],
-      "creators": [],
+      "cast": "Sanjeeda Sheikh, Vatsal Sheth",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2788,19 +1891,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "5.8",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Tenzin Lhakyila",
-        "Aneet Padda",
-        "Akshita Sood",
-        "Afrah Sayed",
-        "Avantika"
-      ],
-      "creators": [],
+      "cast": "Tenzin Lhakyila, Aneet Padda, Akshita Sood, Afrah Sayed, Avantika",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2815,20 +1910,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "5.7",
-      "genres": [
-        "Drama",
-        "War & Politics"
-      ],
+      "genres": "Drama, War & Politics",
       "language": "Hindi",
       "totalSeasons": 2,
-      "cast": [
-        "Manisha Koirala",
-        "Sonakshi Sinha",
-        "Aditi Rao Hydari",
-        "Sharmin Segal",
-        "Sanjeeda Sheikh"
-      ],
-      "creators": [],
+      "cast": "Manisha Koirala, Sonakshi Sinha, Aditi Rao Hydari, Sharmin Segal, Sanjeeda Sheikh",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2843,21 +1929,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "6.4",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Comedy, Crime, Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Konkona Sen Sharma",
-        "Manoj Bajpayee",
-        "Nassar",
-        "Sayaji Shinde",
-        "Anula Navlekar"
-      ],
-      "creators": [],
+      "cast": "Konkona Sen Sharma, Manoj Bajpayee, Nassar, Sayaji Shinde, Anula Navlekar",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2872,19 +1948,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "6.5",
-      "genres": [
-        "Crime"
-      ],
+      "genres": "Crime",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Vijay Raaz",
-        "Ashutosh Rana",
-        "Shivani Raghuvanshi",
-        "Shivaji Satham",
-        "Divya Jagdale"
-      ],
-      "creators": [],
+      "cast": "Vijay Raaz, Ashutosh Rana, Shivani Raghuvanshi, Shivaji Satham, Divya Jagdale",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2899,20 +1967,11 @@
       "year": 2019,
       "rating": "TV-14",
       "imdbRating": "7.4",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "Hindi",
       "totalSeasons": 4,
-      "cast": [
-        "Luv Vispute",
-        "Shubham Gaur",
-        "Nikhil Vijay",
-        "Ahsaas Channa",
-        "Sahil Verma"
-      ],
-      "creators": [],
+      "cast": "Luv Vispute, Shubham Gaur, Nikhil Vijay, Ahsaas Channa, Sahil Verma",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2927,21 +1986,11 @@
       "year": 2020,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Crime"
-      ],
+      "genres": "Drama, Comedy, Crime",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Mona Singh",
-        "Swastika Mukherjee",
-        "Shamita Shetty",
-        "Aamir Ali",
-        "Shoaib Kabeer"
-      ],
-      "creators": [],
+      "cast": "Mona Singh, Swastika Mukherjee, Shamita Shetty, Aamir Ali, Shoaib Kabeer",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2956,20 +2005,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "7.7",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
+      "genres": "Comedy, Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Ravi Kishan",
-        "Naila Grrewal",
-        "Nidhi Bisht",
-        "Anant Joshi",
-        "Anjum Batra"
-      ],
-      "creators": [],
+      "cast": "Ravi Kishan, Naila Grrewal, Nidhi Bisht, Anant Joshi, Anjum Batra",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -2984,19 +2024,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "2.0",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Raveena Tandon",
-        "Namrata Sheth",
-        "Varun Sood",
-        "Gaurav K Sharma",
-        "Viraf Patel"
-      ],
-      "creators": [],
+      "cast": "Raveena Tandon, Namrata Sheth, Varun Sood, Gaurav K Sharma, Viraf Patel",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3011,20 +2043,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "7.1",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
+      "genres": "Comedy, Drama",
       "language": "Hindi",
       "totalSeasons": 4,
-      "cast": [
-        "Aadhya Anand",
-        "Naman Jain",
-        "Anupriya Caroli",
-        "Sachin Singh",
-        "Urvi Singh"
-      ],
-      "creators": [],
+      "cast": "Aadhya Anand, Naman Jain, Anupriya Caroli, Sachin Singh, Urvi Singh",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3039,20 +2062,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "6.7",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
+      "genres": "Crime, Mystery",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Tanya Maniktala",
-        "Jisshu Sengupta",
-        "Parambrata Chatterjee",
-        "Vinay Pathak",
-        "Zarina Wahab"
-      ],
-      "creators": [],
+      "cast": "Tanya Maniktala, Jisshu Sengupta, Parambrata Chatterjee, Vinay Pathak, Zarina Wahab",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3067,25 +2081,17 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "5.7",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Drama, Mystery",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Shriya Pilgaonkar",
-        "Varun Mitra",
-        "Sugandha Garg",
-        "Kulbhushan Kharbanda",
-        "Pranay Pachauri"
-      ],
-      "creators": [],
+      "cast": "Shriya Pilgaonkar, Varun Mitra, Sugandha Garg, Kulbhushan Kharbanda, Pranay Pachauri",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
     },
     {
+      "id": "bf50177a-9795-436c-b946-af7f012ea1a3",
       "title": "PaurashpurPaurashpur",
       "slug": "paurashpur-online-hindi",
       "description": "PaurashpurPaurashpur - Hindi Dubbed Series",
@@ -3094,17 +2100,14 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [],
-      "creators": [],
+      "cast": "",
+      "creators": "",
       "featured": false,
       "trending": false,
-      "category": "drama",
-      "id": "bf50177a-9795-436c-b946-af7f012ea1a3"
+      "category": "drama"
     },
     {
       "id": "6a83eb6d-e84f-4f04-a3a2-34eb773caa37",
@@ -3116,20 +2119,11 @@
       "year": 2020,
       "rating": "TV-MA",
       "imdbRating": "7.3",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "Hindi",
       "totalSeasons": 3,
-      "cast": [
-        "Sushmita Sen",
-        "Vikas Kumar",
-        "Viren Vazirani",
-        "Sikandar Kher",
-        "Pratyaksh Panwar"
-      ],
-      "creators": [],
+      "cast": "Sushmita Sen, Vikas Kumar, Viren Vazirani, Sikandar Kher, Pratyaksh Panwar",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3144,20 +2138,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "8.1",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Gagan Dev Riar",
-        "Sana Amin Sheikh",
-        "Shashank Ketkar",
-        "Mukesh Tiwari",
-        "Sameer Dharmadhikari"
-      ],
-      "creators": [],
+      "cast": "Gagan Dev Riar, Sana Amin Sheikh, Shashank Ketkar, Mukesh Tiwari, Sameer Dharmadhikari",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3172,19 +2157,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "5.7",
-      "genres": [
-        "Mystery"
-      ],
+      "genres": "Mystery",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Wamiqa Gabbi",
-        "Naseeruddin Shah",
-        "Priyanshu Painyuli",
-        "Neena Gupta",
-        "Baharul Islam"
-      ],
-      "creators": [],
+      "cast": "Wamiqa Gabbi, Naseeruddin Shah, Priyanshu Painyuli, Neena Gupta, Baharul Islam",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3199,20 +2176,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "6.2",
-      "genres": [
-        "Comedy",
-        "Mystery"
-      ],
+      "genres": "Comedy, Mystery",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Tanya Maniktala",
-        "Shantanu Maheshwari",
-        "Saswata Chatterjee",
-        "Tillotama Shome",
-        "Revathi"
-      ],
-      "creators": [],
+      "cast": "Tanya Maniktala, Shantanu Maheshwari, Saswata Chatterjee, Tillotama Shome, Revathi",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -3227,21 +2195,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "6.9",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Comedy, Crime, Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Jimmy Shergill",
-        "Arshad Warsi",
-        "Aashim Gulati",
-        "Namit Das",
-        "Atul Srivastava"
-      ],
-      "creators": [],
+      "cast": "Jimmy Shergill, Arshad Warsi, Aashim Gulati, Namit Das, Atul Srivastava",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3256,26 +2214,17 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "6.8",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
+      "genres": "Drama, Crime, Mystery",
       "language": "Hindi",
       "totalSeasons": 2,
-      "cast": [
-        "Kajol",
-        "Jisshu Sengupta",
-        "Kubbra Sait",
-        "Alyy Khan",
-        "Sheeba Chaddha"
-      ],
-      "creators": [],
+      "cast": "Kajol, Jisshu Sengupta, Kubbra Sait, Alyy Khan, Sheeba Chaddha",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
     },
     {
+      "id": "f492f957-6171-48dd-8e4c-49c38c4f9801",
       "title": "College Romance – Online HINDI",
       "slug": "college-romance-online-hindi",
       "description": "College Romance – Online HINDI - Hindi Dubbed Series",
@@ -3284,17 +2233,14 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Hindi",
       "totalSeasons": 4,
-      "cast": [],
-      "creators": [],
+      "cast": "",
+      "creators": "",
       "featured": false,
       "trending": false,
-      "category": "drama",
-      "id": "f492f957-6171-48dd-8e4c-49c38c4f9801"
+      "category": "drama"
     },
     {
       "id": "e0b3a7ca-2d87-43e7-9687-63f92417847e",
@@ -3306,21 +2252,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "9.0",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Family"
-      ],
+      "genres": "Drama, Comedy, Family",
       "language": "Arabic",
       "totalSeasons": 1,
-      "cast": [
-        "Habib Ben Dhiab",
-        "Mohammad Ali Saeed",
-        "Sonia Boukaddida",
-        "Hayat Al-Muntasiri",
-        "Khadija Al Latif"
-      ],
-      "creators": [],
+      "cast": "Habib Ben Dhiab, Mohammad Ali Saeed, Sonia Boukaddida, Hayat Al-Muntasiri, Khadija Al Latif",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3335,21 +2271,11 @@
       "year": 2018,
       "rating": "TV-MA",
       "imdbRating": "8.1",
-      "genres": [
-        "Crime",
-        "Action & Adventure",
-        "Drama"
-      ],
+      "genres": "Crime, Action & Adventure, Drama",
       "language": "Hindi",
       "totalSeasons": 3,
-      "cast": [
-        "Ali Fazal",
-        "Pankaj Tripathi",
-        "Shweta Tripathi Sharma",
-        "Rasika Dugal",
-        "Harshita Gaur"
-      ],
-      "creators": [],
+      "cast": "Ali Fazal, Pankaj Tripathi, Shweta Tripathi Sharma, Rasika Dugal, Harshita Gaur",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -3364,13 +2290,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [],
-      "creators": [],
+      "cast": "",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3385,20 +2309,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "7.3",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Suniel Shetty",
-        "Vivek Oberoi",
-        "Sonali Kulkarni",
-        "Luke Kenny",
-        "Freddy Daruwala"
-      ],
-      "creators": [],
+      "cast": "Suniel Shetty, Vivek Oberoi, Sonali Kulkarni, Luke Kenny, Freddy Daruwala",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3413,21 +2328,11 @@
       "year": 2016,
       "rating": "TV-MA",
       "imdbRating": "7.8",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
+      "genres": "Drama, Mystery, Crime",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Tom Hiddleston",
-        "Olivia Colman",
-        "Douglas Hodge",
-        "Michael Nardone",
-        "Alistair Petrie"
-      ],
-      "creators": [],
+      "cast": "Tom Hiddleston, Olivia Colman, Douglas Hodge, Michael Nardone, Alistair Petrie",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3442,19 +2347,11 @@
       "year": 2024,
       "rating": "TV-PG",
       "imdbRating": "8.0",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Arabic",
       "totalSeasons": 1,
-      "cast": [
-        "Tim Hassan",
-        "Bassam Kousa",
-        "Faia Younan",
-        "Joseph Bou Nassar",
-        "Noura Rahal"
-      ],
-      "creators": [],
+      "cast": "Tim Hassan, Bassam Kousa, Faia Younan, Joseph Bou Nassar, Noura Rahal",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3469,20 +2366,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "7.8",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Shahid Kapoor",
-        "Vijay Sethupathi",
-        "Kay Kay Menon",
-        "Bhuvan Arora",
-        "Raashii Khanna"
-      ],
-      "creators": [],
+      "cast": "Shahid Kapoor, Vijay Sethupathi, Kay Kay Menon, Bhuvan Arora, Raashii Khanna",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3497,20 +2385,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "7.0",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Arjun Rampal",
-        "Purab Kohli",
-        "Sapna Pabbi",
-        "Gopal Dutta",
-        "Medha Rana"
-      ],
-      "creators": [],
+      "cast": "Arjun Rampal, Purab Kohli, Sapna Pabbi, Gopal Dutta, Medha Rana",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3525,20 +2404,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "4.5",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
+      "genres": "Crime, Mystery",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Shriya Pilgaonkar",
-        "Aasif Khan",
-        "Kubbra Sait",
-        "Nassar Abdulla",
-        "Lillete Dubey"
-      ],
-      "creators": [],
+      "cast": "Shriya Pilgaonkar, Aasif Khan, Kubbra Sait, Nassar Abdulla, Lillete Dubey",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3553,20 +2423,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "6.4",
-      "genres": [
-        "Animation",
-        "Drama"
-      ],
+      "genres": "Animation, Drama",
       "language": "Japanese",
       "totalSeasons": 1,
-      "cast": [
-        "Minori Fujidera",
-        "Miyuri Shimabukuro",
-        "Kiyono Yasuno",
-        "Fuka Izumi",
-        "Shoya Chiba"
-      ],
-      "creators": [],
+      "cast": "Minori Fujidera, Miyuri Shimabukuro, Kiyono Yasuno, Fuka Izumi, Shoya Chiba",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3581,20 +2442,11 @@
       "year": 2022,
       "rating": "TV-MA",
       "imdbRating": "6.0",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "Hindi",
       "totalSeasons": 1,
-      "cast": [
-        "Madhuri Dixit",
-        "Sanjay Kapoor",
-        "Manav Kaul",
-        "Suhasini Mulay",
-        "Lakshvir Saran"
-      ],
-      "creators": [],
+      "cast": "Madhuri Dixit, Sanjay Kapoor, Manav Kaul, Suhasini Mulay, Lakshvir Saran",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3609,18 +2461,11 @@
       "year": 2023,
       "rating": "TV-14",
       "imdbRating": "8.0",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Jung In-young",
-        "Sabrina Azhar",
-        "Moon Ju Won",
-        "Cho Won Hee"
-      ],
-      "creators": [],
+      "cast": "Jung In-young, Sabrina Azhar, Moon Ju Won, Cho Won Hee",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3635,19 +2480,11 @@
       "year": 2019,
       "rating": "TV-MA",
       "imdbRating": "7.4",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Spanish",
       "totalSeasons": 2,
-      "cast": [
-        "Irene Azuela",
-        "Juan Manuel Bernal",
-        "Osvaldo Benavides",
-        "Rosa María Bianchi",
-        "Antonio de la Vega"
-      ],
-      "creators": [],
+      "cast": "Irene Azuela, Juan Manuel Bernal, Osvaldo Benavides, Rosa María Bianchi, Antonio de la Vega",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3662,19 +2499,11 @@
       "year": 2022,
       "rating": "TV-MA",
       "imdbRating": "7.3",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Amanda Seyfried",
-        "Naveen Andrews",
-        "Michel Gill",
-        "Elizabeth Marvel",
-        "William H. Macy"
-      ],
-      "creators": [],
+      "cast": "Amanda Seyfried, Naveen Andrews, Michel Gill, Elizabeth Marvel, William H. Macy",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3689,19 +2518,11 @@
       "year": 2013,
       "rating": "TV-14",
       "imdbRating": "7.3",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Spanish",
       "totalSeasons": 1,
-      "cast": [
-        "Ximena Navarrete",
-        "William Levy",
-        "Iván Sánchez",
-        "Laura Carmine",
-        "Daniela Romo"
-      ],
-      "creators": [],
+      "cast": "Ximena Navarrete, William Levy, Iván Sánchez, Laura Carmine, Daniela Romo",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3716,20 +2537,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Eve Myles",
-        "Gabrielle Creevy",
-        "Sion Daniel Young",
-        "Emun Elliott",
-        "Bethan Mary-James"
-      ],
-      "creators": [],
+      "cast": "Eve Myles, Gabrielle Creevy, Sion Daniel Young, Emun Elliott, Bethan Mary-James",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3744,21 +2556,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.9",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "War & Politics"
-      ],
+      "genres": "Comedy, Drama, War & Politics",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Miles Heizer",
-        "Max Parker",
-        "Vera Farmiga",
-        "Liam Oh",
-        "Cedrick Cooper"
-      ],
-      "creators": [],
+      "cast": "Miles Heizer, Max Parker, Vera Farmiga, Liam Oh, Cedrick Cooper",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3773,20 +2575,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "7.2",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
+      "genres": "Crime, Mystery",
       "language": "Spanish",
       "totalSeasons": 2,
-      "cast": [
-        "Milena Smit",
-        "Jose Coronado",
-        "Aixa Villagrán",
-        "Marco Cáceres",
-        "Tristán Ulloa"
-      ],
-      "creators": [],
+      "cast": "Milena Smit, Jose Coronado, Aixa Villagrán, Marco Cáceres, Tristán Ulloa",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3801,19 +2594,11 @@
       "year": 2017,
       "rating": "TV-MA",
       "imdbRating": "7.9",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Nicole Kidman",
-        "Reese Witherspoon",
-        "Shailene Woodley",
-        "Laura Dern",
-        "Zoë Kravitz"
-      ],
-      "creators": [],
+      "cast": "Nicole Kidman, Reese Witherspoon, Shailene Woodley, Laura Dern, Zoë Kravitz",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3828,19 +2613,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "8.2",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Lee Jin-uk",
-        "Jung Chae-yeon",
-        "Jeon Hye-bin",
-        "Lee Hak-ju",
-        "Kang Sang-jun"
-      ],
-      "creators": [],
+      "cast": "Lee Jin-uk, Jung Chae-yeon, Jeon Hye-bin, Lee Hak-ju, Kang Sang-jun",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3855,21 +2632,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.6",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Sci-Fi & Fantasy, Drama, Mystery",
       "language": "Spanish",
       "totalSeasons": 1,
-      "cast": [
-        "Miren Ibarguren",
-        "Joaquín Furriel",
-        "Natalia Verbeke",
-        "Carlos Santos",
-        "Montse Guallar"
-      ],
-      "creators": [],
+      "cast": "Miren Ibarguren, Joaquín Furriel, Natalia Verbeke, Carlos Santos, Montse Guallar",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3884,19 +2651,11 @@
       "year": 2021,
       "rating": "TV-14",
       "imdbRating": "7.6",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": "Comedy",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Anjana Vasan",
-        "Sarah Kameela Impey",
-        "Juliette Motamed",
-        "Faith Omole",
-        "Lucie Shorthouse"
-      ],
-      "creators": [],
+      "cast": "Anjana Vasan, Sarah Kameela Impey, Juliette Motamed, Faith Omole, Lucie Shorthouse",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -3911,19 +2670,11 @@
       "year": 2009,
       "rating": "TV-MA",
       "imdbRating": "6.5",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": "Comedy",
       "language": "English",
       "totalSeasons": 3,
-      "cast": [
-        "Thomas Jane",
-        "Jane Adams",
-        "Charlie Saxton",
-        "Sianoa Smit-McPhee",
-        "Gregg Henry"
-      ],
-      "creators": [],
+      "cast": "Thomas Jane, Jane Adams, Charlie Saxton, Sianoa Smit-McPhee, Gregg Henry",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -3938,19 +2689,11 @@
       "year": 2012,
       "rating": "TV-14",
       "imdbRating": "6.2",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": "Comedy",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Rebecca Blumhagen",
-        "Sally Golan",
-        "Meg Braden",
-        "Tessa Harnetiaux",
-        "Riley Steele"
-      ],
-      "creators": [],
+      "cast": "Rebecca Blumhagen, Sally Golan, Meg Braden, Tessa Harnetiaux, Riley Steele",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -3965,19 +2708,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "8.4",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Kim Go-eun",
-        "Park Ji-hyun",
-        "Kim Gun-woo",
-        "Kim Jae-won",
-        "Moon Woo-jin"
-      ],
-      "creators": [],
+      "cast": "Kim Go-eun, Park Ji-hyun, Kim Gun-woo, Kim Jae-won, Moon Woo-jin",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -3992,21 +2727,11 @@
       "year": 2013,
       "rating": "TV-PG",
       "imdbRating": "7.5",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Crime, Drama, Mystery",
       "language": "English",
       "totalSeasons": 10,
-      "cast": [
-        "Alison O'Donnell",
-        "Steven Robertson",
-        "Lewis Howden",
-        "Douglas Henshall",
-        "Erin Armstrong"
-      ],
-      "creators": [],
+      "cast": "Alison O'Donnell, Steven Robertson, Lewis Howden, Douglas Henshall, Erin Armstrong",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4021,20 +2746,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.1",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Drama, Mystery",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Robin Wright",
-        "Olivia Cooke",
-        "Laurie Davidson",
-        "Waleed Zuaiter",
-        "Tanya Moodie"
-      ],
-      "creators": [],
+      "cast": "Robin Wright, Olivia Cooke, Laurie Davidson, Waleed Zuaiter, Tanya Moodie",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4049,20 +2765,11 @@
       "year": 2021,
       "rating": "TV-MA",
       "imdbRating": "7.3",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
+      "genres": "Comedy, Drama",
       "language": "English",
       "totalSeasons": 3,
-      "cast": [
-        "Sarah Jessica Parker",
-        "Cynthia Nixon",
-        "Kristin Davis",
-        "Mario Cantone",
-        "Sarita Choudhury"
-      ],
-      "creators": [],
+      "cast": "Sarah Jessica Parker, Cynthia Nixon, Kristin Davis, Mario Cantone, Sarita Choudhury",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4077,20 +2784,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.0",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Jason Bateman",
-        "Jude Law",
-        "Chris Coy",
-        "Troy Kotsur",
-        "Abbey Lee"
-      ],
-      "creators": [],
+      "cast": "Jason Bateman, Jude Law, Chris Coy, Troy Kotsur, Abbey Lee",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4105,20 +2803,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.5",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Michelle Williams",
-        "Jenny Slate",
-        "Jay Duplass",
-        "Kelvin Yu",
-        "David Rasche"
-      ],
-      "creators": [],
+      "cast": "Michelle Williams, Jenny Slate, Jay Duplass, Kelvin Yu, David Rasche",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4133,20 +2822,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "6.6",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Drama, Mystery",
       "language": "Spanish",
       "totalSeasons": 1,
-      "cast": [
-        "Úrsula Corberó",
-        "Quim Gutiérrez",
-        "José Manuel Poga",
-        "Isak Férriz",
-        "Eva Llorach"
-      ],
-      "creators": [],
+      "cast": "Úrsula Corberó, Quim Gutiérrez, José Manuel Poga, Isak Férriz, Eva Llorach",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4161,20 +2841,11 @@
       "year": 2022,
       "rating": "TV-MA",
       "imdbRating": "8.0",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "English",
       "totalSeasons": 3,
-      "cast": [
-        "Titus Welliver",
-        "Mimi Rogers",
-        "Madison Lintz",
-        "Stephen A. Chang",
-        "Denise G. Sanchez"
-      ],
-      "creators": [],
+      "cast": "Titus Welliver, Mimi Rogers, Madison Lintz, Stephen A. Chang, Denise G. Sanchez",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4189,19 +2860,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "6.1",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Betty Gilpin",
-        "Shailene Woodley",
-        "DeWanda Wise",
-        "Gabrielle Creevy",
-        "Blair Underwood"
-      ],
-      "creators": [],
+      "cast": "Betty Gilpin, Shailene Woodley, DeWanda Wise, Gabrielle Creevy, Blair Underwood",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4216,20 +2879,11 @@
       "year": 2020,
       "rating": "TV-MA",
       "imdbRating": "7.3",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Mae Martin",
-        "Charlotte Ritchie",
-        "Phil Burgers",
-        "Jack Barry",
-        "Tobi Bamtefa"
-      ],
-      "creators": [],
+      "cast": "Mae Martin, Charlotte Ritchie, Phil Burgers, Jack Barry, Tobi Bamtefa",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4244,11 +2898,11 @@
       "year": 2017,
       "rating": "TV-14",
       "imdbRating": "7.5",
-      "genres": [],
+      "genres": "",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [],
-      "creators": [],
+      "cast": "",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4263,21 +2917,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.3",
-      "genres": [
-        "Crime",
-        "Mystery",
-        "Drama"
-      ],
+      "genres": "Crime, Mystery, Drama",
       "language": "French",
       "totalSeasons": 1,
-      "cast": [
-        "Isabelle Adjani",
-        "Ava Baya",
-        "Louise Coldefy",
-        "Guillaume Gouix",
-        "Thibault de Montalembert"
-      ],
-      "creators": [],
+      "cast": "Isabelle Adjani, Ava Baya, Louise Coldefy, Guillaume Gouix, Thibault de Montalembert",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4292,20 +2936,11 @@
       "year": 2014,
       "rating": "TV-MA",
       "imdbRating": "8.2",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
+      "genres": "Drama, Sci-Fi & Fantasy",
       "language": "English",
       "totalSeasons": 8,
-      "cast": [
-        "Caitríona Balfe",
-        "Sam Heughan",
-        "Sophie Skelton",
-        "Richard Rankin",
-        "John Bell"
-      ],
-      "creators": [],
+      "cast": "Caitríona Balfe, Sam Heughan, Sophie Skelton, Richard Rankin, John Bell",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4320,20 +2955,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.4",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
+      "genres": "Mystery, Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Eric Bana",
-        "Sam Neill",
-        "Rosemarie DeWitt",
-        "Lily Santiago",
-        "Wilson Bethel"
-      ],
-      "creators": [],
+      "cast": "Eric Bana, Sam Neill, Rosemarie DeWitt, Lily Santiago, Wilson Bethel",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4348,21 +2974,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.5",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Mystery, Crime, Drama",
       "language": "Spanish",
       "totalSeasons": 1,
-      "cast": [
-        "Álvaro Morte",
-        "Hovik Keuchkerian",
-        "Kiti Mánver",
-        "Zoé Arnao",
-        "Nonna Cardoner"
-      ],
-      "creators": [],
+      "cast": "Álvaro Morte, Hovik Keuchkerian, Kiti Mánver, Zoé Arnao, Nonna Cardoner",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4377,19 +2993,11 @@
       "year": 2020,
       "rating": "TV-MA",
       "imdbRating": "8.1",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 4,
-      "cast": [
-        "Luke Thompson",
-        "Ruth Gemmell",
-        "Nicola Coughlan",
-        "Claudia Jessie",
-        "Polly Walker"
-      ],
-      "creators": [],
+      "cast": "Luke Thompson, Ruth Gemmell, Nicola Coughlan, Claudia Jessie, Polly Walker",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4404,19 +3012,11 @@
       "year": 2019,
       "rating": "TV-MA",
       "imdbRating": "7.6",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Brianna Hildebrand",
-        "Kiana Madeira",
-        "Quintessa Swindell",
-        "Odiseas Georgiadis",
-        "Larry Sullivan"
-      ],
-      "creators": [],
+      "cast": "Brianna Hildebrand, Kiana Madeira, Quintessa Swindell, Odiseas Georgiadis, Larry Sullivan",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4431,21 +3031,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "5.3",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Comedy",
-        "Drama"
-      ],
+      "genres": "Sci-Fi & Fantasy, Comedy, Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Sue Johnston",
-        "Paul Bentall",
-        "Robert Lindsay",
-        "Anita Dobson",
-        "Lewis Gribben"
-      ],
-      "creators": [],
+      "cast": "Sue Johnston, Paul Bentall, Robert Lindsay, Anita Dobson, Lewis Gribben",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4460,20 +3050,11 @@
       "year": 2018,
       "rating": "TV-14",
       "imdbRating": "7.9",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "English",
       "totalSeasons": 4,
-      "cast": [
-        "Sandra Oh",
-        "Jodie Comer",
-        "Fiona Shaw",
-        "Kim Bodnia",
-        "Owen McDonnell"
-      ],
-      "creators": [],
+      "cast": "Sandra Oh, Jodie Comer, Fiona Shaw, Kim Bodnia, Owen McDonnell",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4488,20 +3069,11 @@
       "year": 2018,
       "rating": "TV-MA",
       "imdbRating": "8.3",
-      "genres": [
-        "Western",
-        "Drama"
-      ],
+      "genres": "Western, Drama",
       "language": "English",
       "totalSeasons": 5,
-      "cast": [
-        "Luke Grimes",
-        "Kelly Reilly",
-        "Wes Bentley",
-        "Cole Hauser",
-        "Kelsey Asbille"
-      ],
-      "creators": [],
+      "cast": "Luke Grimes, Kelly Reilly, Wes Bentley, Cole Hauser, Kelsey Asbille",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4516,20 +3088,11 @@
       "year": 2017,
       "rating": "TV-14",
       "imdbRating": "7.7",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "English",
       "totalSeasons": 5,
-      "cast": [
-        "Katie Stevens",
-        "Aisha Dee",
-        "Meghann Fahy",
-        "Melora Hardin",
-        "Stephen Conrad Moore"
-      ],
-      "creators": [],
+      "cast": "Katie Stevens, Aisha Dee, Meghann Fahy, Melora Hardin, Stephen Conrad Moore",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4544,20 +3107,11 @@
       "year": 2011,
       "rating": "TV-MA",
       "imdbRating": "8.2",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "English",
       "totalSeasons": 11,
-      "cast": [
-        "William H. Macy",
-        "Jeremy Allen White",
-        "Ethan Cutkosky",
-        "Shanola Hampton",
-        "Steve Howey"
-      ],
-      "creators": [],
+      "cast": "William H. Macy, Jeremy Allen White, Ethan Cutkosky, Shanola Hampton, Steve Howey",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4572,19 +3126,11 @@
       "year": 2014,
       "rating": "TV-MA",
       "imdbRating": "6.7",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 5,
-      "cast": [
-        "Dominic West",
-        "Maura Tierney",
-        "Julia Goldani Telles",
-        "Jadon Sand",
-        "Reagan Grella"
-      ],
-      "creators": [],
+      "cast": "Dominic West, Maura Tierney, Julia Goldani Telles, Jadon Sand, Reagan Grella",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4599,21 +3145,11 @@
       "year": 2022,
       "rating": "TV-14",
       "imdbRating": "6.4",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Crime, Drama, Mystery",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Alfred Molina",
-        "Rossif Sutherland",
-        "Elle-Máijá Tailfeathers",
-        "Sarah Booth",
-        "Anna Tierney"
-      ],
-      "creators": [],
+      "cast": "Alfred Molina, Rossif Sutherland, Elle-Máijá Tailfeathers, Sarah Booth, Anna Tierney",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4628,21 +3164,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "8.2",
-      "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Mystery"
-      ],
+      "genres": "Drama, Action & Adventure, Mystery",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Eddie Redmayne",
-        "Lashana Lynch",
-        "Eleanor Matsuura",
-        "Chukwudi Iwuji",
-        "Úrsula Corberó"
-      ],
-      "creators": [],
+      "cast": "Eddie Redmayne, Lashana Lynch, Eleanor Matsuura, Chukwudi Iwuji, Úrsula Corberó",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -4657,19 +3183,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.4",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "Spanish",
       "totalSeasons": 1,
-      "cast": [
-        "Zuria Vega",
-        "Andres Baida",
-        "Erik Hayser",
-        "Adriana Louvier",
-        "José María Torre"
-      ],
-      "creators": [],
+      "cast": "Zuria Vega, Andres Baida, Erik Hayser, Adriana Louvier, José María Torre",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4684,20 +3202,11 @@
       "year": 2015,
       "rating": "TV-MA",
       "imdbRating": "7.8",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Sarah Hay",
-        "Irina Dvorovenko",
-        "Raychel Diane Weiner",
-        "Emily Tyra",
-        "Ben Daniels",
-        "Damon Herriman"
-      ],
-      "creators": [],
+      "cast": "Sarah Hay, Irina Dvorovenko, Raychel Diane Weiner, Emily Tyra, Ben Daniels, Damon Herriman",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4712,21 +3221,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.6",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Mystery, Crime, Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Jaśmina Polak",
-        "Mateusz Kościukiewicz",
-        "Robert Więckiewicz",
-        "Wojciech Zieliński",
-        "Kamila Urzędowska"
-      ],
-      "creators": [],
+      "cast": "Jaśmina Polak, Mateusz Kościukiewicz, Robert Więckiewicz, Wojciech Zieliński, Kamila Urzędowska",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4741,19 +3240,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "7.1",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Kristine Froseth",
-        "Alisha Boe",
-        "Aubri Ibrag",
-        "Imogen Waterhouse",
-        "Josie Totah"
-      ],
-      "creators": [],
+      "cast": "Kristine Froseth, Alisha Boe, Aubri Ibrag, Imogen Waterhouse, Josie Totah",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4768,19 +3259,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.1",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": "Comedy",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Malik Elassal",
-        "Lucy Freyer",
-        "Jack Innanen",
-        "Amita Rao",
-        "Owen Thiele"
-      ],
-      "creators": [],
+      "cast": "Malik Elassal, Lucy Freyer, Jack Innanen, Amita Rao, Owen Thiele",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -4795,20 +3278,11 @@
       "year": 2014,
       "rating": "TV-14",
       "imdbRating": "9.7",
-      "genres": [
-        "Drama",
-        "Action & Adventure"
-      ],
+      "genres": "Drama, Action & Adventure",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Emma Roberts",
-        "Billy Campbell",
-        "Gregg Sulkin",
-        "Ian Anthony Dale",
-        "Michael Michele"
-      ],
-      "creators": [],
+      "cast": "Emma Roberts, Billy Campbell, Gregg Sulkin, Ian Anthony Dale, Michael Michele",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -4823,20 +3297,11 @@
       "year": 2011,
       "rating": "TV-MA",
       "imdbRating": "6.3",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
+      "genres": "Sci-Fi & Fantasy, Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Joseph Fiennes",
-        "Eva Green",
-        "Jamie Campbell Bower",
-        "Tamsin Egerton",
-        "Claire Forlani"
-      ],
-      "creators": [],
+      "cast": "Joseph Fiennes, Eva Green, Jamie Campbell Bower, Tamsin Egerton, Claire Forlani",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4851,19 +3316,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "6.7",
-      "genres": [
-        "Documentary"
-      ],
+      "genres": "Documentary",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Claire RockSmith",
-        "Corinne Joy",
-        "Sophie Fergi",
-        "Sawyer Sharbino",
-        "Brandon Stewart"
-      ],
-      "creators": [],
+      "cast": "Claire RockSmith, Corinne Joy, Sophie Fergi, Sawyer Sharbino, Brandon Stewart",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "documentary"
@@ -4878,19 +3335,11 @@
       "year": 2024,
       "rating": "TV-14",
       "imdbRating": "7.2",
-      "genres": [
-        "Drama"
-      ],
+      "genres": "Drama",
       "language": "French",
       "totalSeasons": 1,
-      "cast": [
-        "Christian Cooke",
-        "Orion Lee",
-        "Sarah Bolger",
-        "Trine Dyrholm",
-        "Aidan Quinn"
-      ],
-      "creators": [],
+      "cast": "Christian Cooke, Orion Lee, Sarah Bolger, Trine Dyrholm, Aidan Quinn",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4905,20 +3354,11 @@
       "year": 2016,
       "rating": "TV-MA",
       "imdbRating": "7.7",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "English",
       "totalSeasons": 6,
-      "cast": [
-        "Finn Cole",
-        "Shawn Hatosy",
-        "Ben Robson",
-        "Jake Weary",
-        "Christina Ochoa"
-      ],
-      "creators": [],
+      "cast": "Finn Cole, Shawn Hatosy, Ben Robson, Jake Weary, Christina Ochoa",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4933,21 +3373,11 @@
       "year": 2004,
       "rating": "TV-14",
       "imdbRating": "8.6",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Mystery"
-      ],
+      "genres": "Drama, Comedy, Mystery",
       "language": "English",
       "totalSeasons": 8,
-      "cast": [
-        "Hugh Laurie",
-        "Robert Sean Leonard",
-        "Omar Epps",
-        "Jesse Spencer",
-        "Lisa Edelstein"
-      ],
-      "creators": [],
+      "cast": "Hugh Laurie, Robert Sean Leonard, Omar Epps, Jesse Spencer, Lisa Edelstein",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4962,20 +3392,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "6.3",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Ray Romano",
-        "Lisa Kudrow",
-        "Linda Cardellini",
-        "Abbi Jacobson",
-        "Luke Wilson"
-      ],
-      "creators": [],
+      "cast": "Ray Romano, Lisa Kudrow, Linda Cardellini, Abbi Jacobson, Luke Wilson",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -4990,20 +3411,11 @@
       "year": 2016,
       "rating": "TV-MA",
       "imdbRating": "7.6",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "English",
       "totalSeasons": 5,
-      "cast": [
-        "Alice Braga",
-        "Hemky Madera",
-        "Peter Gadiot",
-        "Ryan O'Nan",
-        "Veronica Falcón"
-      ],
-      "creators": [],
+      "cast": "Alice Braga, Hemky Madera, Peter Gadiot, Ryan O'Nan, Veronica Falcón",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5018,20 +3430,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.2",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Holt McCallany",
-        "Melissa Benoist",
-        "Jake Weary",
-        "Rafael L. Silva",
-        "Humberly González"
-      ],
-      "creators": [],
+      "cast": "Holt McCallany, Melissa Benoist, Jake Weary, Rafael L. Silva, Humberly González",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5046,21 +3449,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "7.6",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Comedy, Crime, Drama",
       "language": "German",
       "totalSeasons": 1,
-      "cast": [
-        "Tom Schilling",
-        "Emily Cox",
-        "Britta Hammelstein",
-        "Murathan Muslu",
-        "Pamuk Pilavci"
-      ],
-      "creators": [],
+      "cast": "Tom Schilling, Emily Cox, Britta Hammelstein, Murathan Muslu, Pamuk Pilavci",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5075,20 +3468,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.7",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Drama, Mystery",
       "language": "Spanish",
       "totalSeasons": 1,
-      "cast": [
-        "Clara Galle",
-        "Nira Osahia",
-        "Agustín Della Corte",
-        "Juan Perales",
-        "Nuno Gallego"
-      ],
-      "creators": [],
+      "cast": "Clara Galle, Nira Osahia, Agustín Della Corte, Juan Perales, Nuno Gallego",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5103,21 +3487,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "7.0",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
+      "genres": "Drama, Crime, Mystery",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Leonie Vincent",
-        "Johan Hedenberg",
-        "Johan Rheborg",
-        "Ia Langhammer",
-        "Cecilia Nilsson"
-      ],
-      "creators": [],
+      "cast": "Leonie Vincent, Johan Hedenberg, Johan Rheborg, Ia Langhammer, Cecilia Nilsson",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5132,20 +3506,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
+      "genres": "Drama, Comedy",
       "language": "Spanish",
       "totalSeasons": 1,
-      "cast": [
-        "Nadia de Santiago",
-        "Álvaro Mel",
-        "Isa Montalbán",
-        "Zoe Bonafonte",
-        "Iratxe Emparan"
-      ],
-      "creators": [],
+      "cast": "Nadia de Santiago, Álvaro Mel, Isa Montalbán, Zoe Bonafonte, Iratxe Emparan",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5160,20 +3525,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "7.2",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Drama, Mystery",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Emily Alyn Lind",
-        "Shubham Maheshwari",
-        "Joseph Zada",
-        "Esther-Rose McGregor",
-        "David Morse"
-      ],
-      "creators": [],
+      "cast": "Emily Alyn Lind, Shubham Maheshwari, Joseph Zada, Esther-Rose McGregor, David Morse",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5188,20 +3544,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.8",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
+      "genres": "Action & Adventure, Drama",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "So Ji-sub",
-        "Huh Joon-ho",
-        "Gong Myoung",
-        "Choo Young-woo",
-        "An Kil-kang"
-      ],
-      "creators": [],
+      "cast": "So Ji-sub, Huh Joon-ho, Gong Myoung, Choo Young-woo, An Kil-kang",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -5216,20 +3563,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "8.4",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Crime, Drama",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Tom Hardy",
-        "Pierce Brosnan",
-        "Paddy Considine",
-        "Joanne Froggatt",
-        "Lara Pulver"
-      ],
-      "creators": [],
+      "cast": "Tom Hardy, Pierce Brosnan, Paddy Considine, Joanne Froggatt, Lara Pulver",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5244,21 +3582,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.4",
-      "genres": [
-        "Mystery",
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Mystery, Drama, Crime",
       "language": "Italian",
       "totalSeasons": 1,
-      "cast": [
-        "Teresa Saponangelo",
-        "Claudia Gerini",
-        "Flavio Furno",
-        "Chiara Celotto",
-        "Massimo Popolizio"
-      ],
-      "creators": [],
+      "cast": "Teresa Saponangelo, Claudia Gerini, Flavio Furno, Chiara Celotto, Massimo Popolizio",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5273,21 +3601,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "7.0",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
+      "genres": "Drama, Crime, Mystery",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Jessica Biel",
-        "Elizabeth Banks",
-        "Corey Stoll",
-        "Kim Dickens",
-        "Maxwell Acee Donovan"
-      ],
-      "creators": [],
+      "cast": "Jessica Biel, Elizabeth Banks, Corey Stoll, Kim Dickens, Maxwell Acee Donovan",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5302,20 +3620,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "7.7",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
+      "genres": "Crime, Mystery",
       "language": "Korean",
       "totalSeasons": 1,
-      "cast": [
-        "Kim Ye-won",
-        "Ji Jin-hee",
-        "Kim Da-mi",
-        "Son Suk-ku",
-        "Kim Sung-kyun"
-      ],
-      "creators": [],
+      "cast": "Kim Ye-won, Ji Jin-hee, Kim Da-mi, Son Suk-ku, Kim Sung-kyun",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5330,21 +3639,11 @@
       "year": 2023,
       "rating": "TV-MA",
       "imdbRating": "7.5",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
+      "genres": "Drama, Crime, Action & Adventure",
       "language": "Portuguese",
       "totalSeasons": 2,
-      "cast": [
-        "Maeve Jinkings",
-        "Rômulo Braga",
-        "Thomás Aquino",
-        "Alex Nader",
-        "Pedro Caetano"
-      ],
-      "creators": [],
+      "cast": "Maeve Jinkings, Rômulo Braga, Thomás Aquino, Alex Nader, Pedro Caetano",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -5359,21 +3658,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "8.0",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
+      "genres": "Drama, Crime, Mystery",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Matthew Goode",
-        "Chloe Pirrie",
-        "Jamie Sives",
-        "Alexej Manvelov",
-        "Leah Byrne"
-      ],
-      "creators": [],
+      "cast": "Matthew Goode, Chloe Pirrie, Jamie Sives, Alexej Manvelov, Leah Byrne",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5388,19 +3677,11 @@
       "year": 2014,
       "rating": "TV-14",
       "imdbRating": "6.9",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": "Comedy",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Michael Mosley",
-        "Kevin Daniels",
-        "Kevin Bigley",
-        "Jessica McNamee",
-        "Bill Nunn"
-      ],
-      "creators": [],
+      "cast": "Michael Mosley, Kevin Daniels, Kevin Bigley, Jessica McNamee, Bill Nunn",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -5415,21 +3696,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.8",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
+      "genres": "Drama, Mystery, Crime",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Miku Martineau",
-        "Ayo Solanke",
-        "Eve Edwards",
-        "Clara Alexandrova",
-        "Hunter Cardinal"
-      ],
-      "creators": [],
+      "cast": "Miku Martineau, Ayo Solanke, Eve Edwards, Clara Alexandrova, Hunter Cardinal",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5444,20 +3715,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "6.5",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "English",
       "totalSeasons": 1,
-      "cast": [
-        "Marie Bach Hansen",
-        "Excel Busano",
-        "Danica Ćurčić",
-        "Sara Fanta Traore",
-        "Simon Sears"
-      ],
-      "creators": [],
+      "cast": "Marie Bach Hansen, Excel Busano, Danica Ćurčić, Sara Fanta Traore, Simon Sears",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5472,20 +3734,11 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "6.9",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
+      "genres": "Drama, Crime",
       "language": "Spanish",
       "totalSeasons": 1,
-      "cast": [
-        "Clara Lago",
-        "Tamar Novas",
-        "Xosé A. Touriñán",
-        "Chechu Salgado",
-        "Melania Cruz"
-      ],
-      "creators": [],
+      "cast": "Clara Lago, Tamar Novas, Xosé A. Touriñán, Chechu Salgado, Melania Cruz",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "drama"
@@ -5500,21 +3753,11 @@
       "year": 2025,
       "rating": "TV-MA",
       "imdbRating": "6.8",
-      "genres": [
-        "Action & Adventure",
-        "Crime",
-        "Drama"
-      ],
+      "genres": "Action & Adventure, Crime, Drama",
       "language": "Italian",
       "totalSeasons": 1,
-      "cast": [
-        "Marco Giallini",
-        "Adriano Giannini",
-        "Valentina Bellè",
-        "Pierluigi Gigante",
-        "Fabrizio Nardi"
-      ],
-      "creators": [],
+      "cast": "Marco Giallini, Adriano Giannini, Valentina Bellè, Pierluigi Gigante, Fabrizio Nardi",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "action"
@@ -5529,19 +3772,11 @@
       "year": 2025,
       "rating": "TV-14",
       "imdbRating": "6.5",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": "Comedy",
       "language": "English",
       "totalSeasons": 2,
-      "cast": [
-        "Tina Fey",
-        "Steve Carell",
-        "Colman Domingo",
-        "Erika Henningsen",
-        "Kerri Kenney"
-      ],
-      "creators": [],
+      "cast": "Tina Fey, Steve Carell, Colman Domingo, Erika Henningsen, Kerri Kenney",
+      "creators": "",
       "featured": false,
       "trending": false,
       "category": "comedy"
@@ -5556,22 +3791,32 @@
       "year": 2024,
       "rating": "TV-MA",
       "imdbRating": "6.2",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
+      "genres": "Drama, Mystery",
       "language": "Italian",
       "totalSeasons": 1,
-      "cast": [
-        "Alice Lupparelli",
-        "Noemi Magagnini",
-        "Beatrice Puccilli",
-        "Penelope Raggi",
-        "Luigi Bruno"
-      ],
-      "creators": [],
+      "cast": "Alice Lupparelli, Noemi Magagnini, Beatrice Puccilli, Penelope Raggi, Luigi Bruno",
+      "creators": "",
       "featured": false,
       "trending": false,
+      "category": "drama"
+    },
+    {
+      "id": "ff2658a6-7bf1-4571-83af-f03d3b132e38",
+      "title": "IT: Welcome to Derry",
+      "slug": "it-welcome-to-derry",
+      "description": "In 1962, a couple with their son move to Derry, Maine just as a young boy disappears. With their arrival, very bad things begin to happen in the town.",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
+      "backdropUrl": "https://media.themoviedb.org/t/p/w1066_and_h600_face/zJci8jESf1Rr6NSokFRJhxHtdJ5.jpg",
+      "year": 2025,
+      "rating": "TV-MA",
+      "imdbRating": 8,
+      "genres": "Drama, Mystery",
+      "language": "English",
+      "totalSeasons": 1,
+      "cast": "Taylour Paige, Jovan Adepo, James Remar, Stephen Rider, Matilda Lawler",
+      "creators": "",
+      "featured": true,
+      "trending": true,
       "category": "drama"
     }
   ],
@@ -35722,7 +33967,67 @@
       "googleDriveUrl": "https://drive.google.com/file/d/1ECj0XXn80W3C1-s7ziG0rX8XvgOQ6tdG/preview",
       "airDate": "2025-11-23",
       "id": "b3b9ee83-5336-4bfc-9f90-342b363beedc"
+    },
+    {
+      "showId": "ff2658a6-7bf1-4571-83af-f03d3b132e38",
+      "season": 1,
+      "episodeNumber": 1,
+      "title": "The Pilot",
+      "description": "As four misfit kids vow to find their missing classmate, Major Leroy Hanlon arrives to a mixed reception at Derry Air Force Base.",
+      "thumbnailUrl": "https://media.themoviedb.org/t/p/w454_and_h254_face/uwKrKvprzNW9ACtSB27MlzOpIHL.jpg",
+      "duration": 54,
+      "googleDriveUrl": "https://drive.google.com/file/d/1II6huygTxG1Z6pykXwmyZ5JsDhXmtk8A/preview",
+      "airDate": "2025-10-26",
+      "id": "59a1fcb0-ca11-49c0-8c72-206995c878da"
+    },
+    {
+      "showId": "ff2658a6-7bf1-4571-83af-f03d3b132e38",
+      "season": 1,
+      "episodeNumber": 2,
+      "title": "The Thing in the Dark",
+      "description": "While Charlotte and Will navigate their new life in Derry, Ronnie worries about her father's fate.",
+      "thumbnailUrl": "https://media.themoviedb.org/t/p/w454_and_h254_face/eYjrjLWIwD6qE148NKHKYcdHKjv.jpg",
+      "duration": 62,
+      "googleDriveUrl": "https://drive.google.com/file/d/1eUrsir1dBSjQLf0E06LKHn1OQokPwrbP/preview",
+      "airDate": "2025-11-02",
+      "id": "bf6b6012-8bd1-4cd7-946a-43c29cca4ac3"
+    },
+    {
+      "showId": "ff2658a6-7bf1-4571-83af-f03d3b132e38",
+      "season": 1,
+      "episodeNumber": 3,
+      "title": "Now You See It",
+      "description": "As Leroy, Pauly, and Dick search for a new dig site, the kids attempt to get visual proof of the phenomena they've been experiencing.",
+      "thumbnailUrl": "https://media.themoviedb.org/t/p/w454_and_h254_face/n4BGtiqwoFYd5ZX3UmdupeENcq.jpg",
+      "duration": 59,
+      "googleDriveUrl": "https://drive.google.com/file/d/1De2rX0WcgVYYSVNZBi5mt5AR3JbTFoVc/preview",
+      "airDate": "2025-11-09",
+      "id": "0139a3d5-250d-48bb-8f9b-182ad3b96696"
+    },
+    {
+      "showId": "ff2658a6-7bf1-4571-83af-f03d3b132e38",
+      "season": 1,
+      "episodeNumber": 4,
+      "title": "The Great Swirling Apparatus of Our Planet's Function",
+      "description": "As the kids face increasingly terrifying experiences, Charlotte attempts to advocate for Hank, and General Shaw escalates his efforts.",
+      "thumbnailUrl": "https://media.themoviedb.org/t/p/w454_and_h254_face/hBKG3nQJ8NzE9U0U5uKQfQD88XY.jpg",
+      "duration": 63,
+      "googleDriveUrl": "https://drive.google.com/file/d/1LSPYfqC4YVeNNlgSpnWCWopGl01BNz4d/preview",
+      "airDate": "2025-11-16",
+      "id": "a96fb9a9-00cd-4cab-a463-a15c9a1f23c1"
+    },
+    {
+      "showId": "ff2658a6-7bf1-4571-83af-f03d3b132e38",
+      "season": 1,
+      "episodeNumber": 5,
+      "title": "Neibolt Street",
+      "description": "Leroy moves his family to the base for safety. While the tribal Keepers strategize how to contain increased aggression in town, the military descends on Neibolt Street, and the kids head into the sewers with their own objective.",
+      "thumbnailUrl": "https://media.themoviedb.org/t/p/w454_and_h254_face/qdCgZtY6ucNCzf6DHHEzFGGhGUl.jpg",
+      "duration": 59,
+      "googleDriveUrl": "https://drive.google.com/file/d/1x5DJlYM33CUy4HGUKjt75lXm2viwFBdf/preview",
+      "airDate": "2025-11-23",
+      "id": "8a0eec1d-3afd-447a-8aea-7472aa78d024"
     }
   ],
-  "lastUpdated": "2025-11-23T20:03:16.669Z"
+  "lastUpdated": "2025-11-24T10:21:25.450Z"
 }

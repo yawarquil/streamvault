@@ -14,11 +14,11 @@ export const shows = pgTable("shows", {
   year: integer("year").notNull(),
   rating: text("rating").notNull(), // e.g., "TV-MA", "PG-13"
   imdbRating: text("imdb_rating"), // e.g., "8.5"
-  genres: text("genres").array().notNull(),
+  genres: text("genres").notNull(), // comma-separated string
   language: text("language").notNull(),
   totalSeasons: integer("total_seasons").notNull(),
-  cast: text("cast").array(),
-  creators: text("creators").array(),
+  cast: text("cast"), // comma-separated string
+  creators: text("creators"), // comma-separated string
   featured: boolean("featured").default(false),
   trending: boolean("trending").default(false),
   category: text("category"), // "action", "drama", "comedy", etc.

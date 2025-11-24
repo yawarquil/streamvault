@@ -55,10 +55,10 @@ export default function Home() {
 
   const featured = shows?.filter((show) => show.featured) || [];
   const trending = shows?.filter((show) => show.trending) || [];
-  const action = shows?.filter((show) => show.genres.includes("Action")) || [];
-  const drama = shows?.filter((show) => show.genres.includes("Drama")) || [];
-  const comedy = shows?.filter((show) => show.genres.includes("Comedy")) || [];
-  const horror = shows?.filter((show) => show.genres.includes("Horror")) || [];
+  const action = shows?.filter((show) => show.genres?.toLowerCase().includes("action")) || [];
+  const drama = shows?.filter((show) => show.genres?.toLowerCase().includes("drama")) || [];
+  const comedy = shows?.filter((show) => show.genres?.toLowerCase().includes("comedy")) || [];
+  const horror = shows?.filter((show) => show.genres?.toLowerCase().includes("horror")) || [];
 
   return (
     <div className="min-h-screen">

@@ -19,6 +19,8 @@
     "update-shows": "tsx scripts/update-shows-from-tmdb.ts",
     "update-images": "tsx scripts/update-images-from-tmdb.ts",
     "update-episodes": "tsx scripts/update-episode-thumbnails.ts",
+    "add-show": "tsx scripts/add-show-from-tmdb.ts",
+    "migrate-genres": "tsx scripts/migrate-genres-to-string.ts",
     "check-failed": "tsx scripts/check-failed-shows.ts"
   },
   "dependencies": {

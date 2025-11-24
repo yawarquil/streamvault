@@ -33,7 +33,10 @@ export default function Search() {
   const allGenres = useMemo(() => {
     if (!shows) return [];
     const genres = new Set<string>();
-    shows.forEach((show) => show.genres.forEach((g) => genres.add(g)));
+    shows.forEach((show) => {
+      const showGenres = show.genres?.split(',').map(g => g.trim()) || [];
+      showGenres.forEach((g) => genres.add(g));
+    });
     return Array.from(genres).sort();
   }, [shows]);
 
@@ -41,17 +44,19 @@ export default function Search() {
     if (!shows) return [];
 
     return shows.filter((show) => {
+      const genres = show.genres?.split(',').map(g => g.trim()) || [];
+      
       const matchesQuery =
         !searchQuery ||
         show.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         show.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        show.genres.some((g) =>
+        genres.some((g) =>
           g.toLowerCase().includes(searchQuery.toLowerCase())
         );
 
       const matchesGenre =
         selectedGenres.length === 0 ||
-        show.genres.some((g) => selectedGenres.includes(g));
+        genres.some((g) => selectedGenres.includes(g));
 
       const matchesYear =
         show.year >= yearRange[0] && show.year <= yearRange[1];

@@ -81,14 +81,14 @@ export function HeroCarousel({ shows }: HeroCarouselProps) {
 
           {/* Genres */}
           <div className="flex flex-wrap gap-2">
-            {currentShow.genres.slice(0, 3).map((genre) => (
+            {currentShow.genres?.split(',').slice(0, 3).map((genre) => (
               <Badge
-                key={genre}
+                key={genre.trim()}
                 variant="secondary"
                 className="bg-background/80 backdrop-blur-sm"
-                data-testid={`badge-genre-${genre.toLowerCase()}`}
+                data-testid={`badge-genre-${genre.trim().toLowerCase()}`}
               >
-                {genre}
+                {genre.trim()}
               </Badge>
             ))}
           </div>

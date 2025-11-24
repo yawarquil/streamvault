@@ -49,10 +49,12 @@ export function Chatbot() {
     if (!shows) return [];
     const lowerQuery = query.toLowerCase();
     return shows.filter(
-      (show) =>
-        show.title.toLowerCase().includes(lowerQuery) ||
-        show.genres.some((g) => g.toLowerCase().includes(lowerQuery)) ||
-        show.category?.toLowerCase().includes(lowerQuery)
+      (show) => {
+        const genres = show.genres?.split(',').map(g => g.trim().toLowerCase()) || [];
+        return show.title.toLowerCase().includes(lowerQuery) ||
+          genres.some((g) => g.includes(lowerQuery)) ||
+          show.category?.toLowerCase().includes(lowerQuery);
+      }
     );
   };
 
@@ -157,10 +159,11 @@ export function Chatbot() {
       lowerMessage.includes("action") ||
       lowerMessage.includes("thriller")
     ) {
-      const categoryShows = shows?.filter(s => 
-        s.category === "action" || 
-        s.genres.some(g => g.toLowerCase().includes("action") || g.toLowerCase().includes("thriller"))
-      ).slice(0, 5) || [];
+      const categoryShows = shows?.filter(s => {
+        const genres = s.genres?.toLowerCase() || '';
+        return s.category === "action" || 
+          genres.includes("action") || genres.includes("thriller");
+      }).slice(0, 5) || [];
       
       if (categoryShows.length > 0) {
         return {
@@ -180,10 +183,11 @@ export function Chatbot() {
       lowerMessage.includes("drama") ||
       lowerMessage.includes("romance")
     ) {
-      const categoryShows = shows?.filter(s => 
-        s.category === "drama" || s.category === "romance" ||
-        s.genres.some(g => g.toLowerCase().includes("drama") || g.toLowerCase().includes("romance"))
-      ).slice(0, 5) || [];
+      const categoryShows = shows?.filter(s => {
+        const genres = s.genres?.toLowerCase() || '';
+        return s.category === "drama" || s.category === "romance" ||
+          genres.includes("drama") || genres.includes("romance");
+      }).slice(0, 5) || [];
       
       if (categoryShows.length > 0) {
         return {
@@ -200,10 +204,11 @@ export function Chatbot() {
     }
 
     if (lowerMessage.includes("comedy")) {
-      const categoryShows = shows?.filter(s => 
-        s.category === "comedy" ||
-        s.genres.some(g => g.toLowerCase().includes("comedy"))
-      ).slice(0, 5) || [];
+      const categoryShows = shows?.filter(s => {
+        const genres = s.genres?.toLowerCase() || '';
+        return s.category === "comedy" ||
+          genres.includes("comedy");
+      }).slice(0, 5) || [];
       
       if (categoryShows.length > 0) {
         return {
@@ -220,10 +225,11 @@ export function Chatbot() {
     }
 
     if (lowerMessage.includes("horror") || lowerMessage.includes("mystery")) {
-      const categoryShows = shows?.filter(s => 
-        s.category === "horror" || s.category === "mystery" ||
-        s.genres.some(g => g.toLowerCase().includes("horror") || g.toLowerCase().includes("mystery"))
-      ).slice(0, 5) || [];
+      const categoryShows = shows?.filter(s => {
+        const genres = s.genres?.toLowerCase() || '';
+        return s.category === "horror" || s.category === "mystery" ||
+          genres.includes("horror") || genres.includes("mystery");
+      }).slice(0, 5) || [];
       
       if (categoryShows.length > 0) {
         return {

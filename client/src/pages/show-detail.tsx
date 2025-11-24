@@ -202,9 +202,12 @@ export default function ShowDetail() {
 
   const similarShows =
     allShows?.filter(
-      (s) =>
-        s.id !== show.id &&
-        s.genres.some((genre) => show.genres.includes(genre))
+      (s) => {
+        if (s.id === show.id) return false;
+        const sGenres = s.genres?.split(',').map(g => g.trim().toLowerCase()) || [];
+        const showGenres = show.genres?.split(',').map(g => g.trim().toLowerCase()) || [];
+        return sGenres.some((genre) => showGenres.includes(genre));
+      }
     ).slice(0, 12) || [];
 
   return (
@@ -256,9 +259,9 @@ export default function ShowDetail() {
 
               {/* Genres */}
               <div className="flex flex-wrap gap-2">
-                {show.genres.map((genre) => (
-                  <Badge key={genre} variant="secondary">
-                    {genre}
+                {show.genres?.split(',').map((genre) => (
+                  <Badge key={genre.trim()} variant="secondary">
+                    {genre.trim()}
                   </Badge>
                 ))}
               </div>
@@ -412,18 +415,18 @@ export default function ShowDetail() {
                 <p className="text-muted-foreground">{show.description}</p>
               </div>
 
-              {show.cast && show.cast.length > 0 && (
+              {show.cast && show.cast.trim() && (
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Cast</h3>
-                  <p className="text-muted-foreground">{show.cast.join(", ")}</p>
+                  <p className="text-muted-foreground">{show.cast}</p>
                 </div>
               )}
 
-              {show.creators && show.creators.length > 0 && (
+              {show.creators && show.creators.trim() && (
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Creators</h3>
                   <p className="text-muted-foreground">
-                    {show.creators.join(", ")}
+                    {show.creators}
                   </p>
                 </div>
               )}

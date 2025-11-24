@@ -265,9 +265,9 @@ function ManageShows({ shows }: { shows: Show[] }) {
                       {show.year} • {show.totalSeasons} Season(s) • {show.rating}
                     </p>
                     <div className="flex gap-2 mt-2">
-                      {show.genres.slice(0, 3).map((genre) => (
-                        <Badge key={genre} variant="secondary">
-                          {genre}
+                      {show.genres?.split(',').slice(0, 3).map((genre) => (
+                        <Badge key={genre.trim()} variant="secondary">
+                          {genre.trim()}
                         </Badge>
                       ))}
                     </div>
@@ -365,11 +365,11 @@ function EditShowForm({ show, onSave, onCancel, isLoading }: {
     year: show.year,
     rating: show.rating,
     imdbRating: show.imdbRating || "",
-    genres: show.genres.join(", "),
+    genres: show.genres || "",
     language: show.language,
     totalSeasons: show.totalSeasons,
-    cast: show.cast?.join(", ") || "",
-    creators: show.creators?.join(", ") || "",
+    cast: show.cast || "",
+    creators: show.creators || "",
     featured: show.featured || false,
     trending: show.trending || false,
     category: show.category || "action",
@@ -379,9 +379,10 @@ function EditShowForm({ show, onSave, onCancel, isLoading }: {
     e.preventDefault();
     onSave({
       ...formData,
-      genres: formData.genres.split(",").map((g) => g.trim()),
-      cast: formData.cast.split(",").map((c) => c.trim()).filter(Boolean),
-      creators: formData.creators.split(",").map((c) => c.trim()).filter(Boolean),
+      // Keep as strings (comma-separated)
+      genres: formData.genres,
+      cast: formData.cast,
+      creators: formData.creators,
     });
   };
 
