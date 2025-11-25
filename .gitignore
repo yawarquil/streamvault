@@ -93,6 +93,7 @@ yarn-error.log*
 
 # SEO Automation - Sensitive Files
 google-service-account.json
+google-submitted-urls.json
 indexnow-key.txt
 *.txt
 !client/public/*.txt
