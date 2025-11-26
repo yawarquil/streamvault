@@ -5,7 +5,7 @@ const ADMIN_EMAIL = "contact@streamvault.live";
 // Temporary: Use verified email until SPF records are verified in Resend
 const VERIFIED_EMAIL = "yawaraquil121@gmail.com";
 // Set to true once all DNS records show "Verified" in Resend dashboard
-const DOMAIN_FULLY_VERIFIED = false;
+const DOMAIN_FULLY_VERIFIED = true; // ✅ DNS records verified!
 
 interface EmailData {
   to: string;

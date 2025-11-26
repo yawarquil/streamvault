@@ -39387,8 +39387,20 @@
       "reason": "Classic Christopher Nolan film!",
       "email": "test@streamvault.com",
       "id": "dda31d89-2fb1-4f57-b32c-5c28816556b2",
-      "requestCount": 3,
+      "requestCount": 4,
       "createdAt": "2025-11-26T17:22:43.356Z"
+    },
+    {
+      "contentType": "series",
+      "title": "Game of Thrones",
+      "year": "2011",
+      "genre": "Fantasy, Drama, Adventure",
+      "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+      "reason": "Most requested show by users! Epic fantasy series.",
+      "email": "fan@streamvault.com",
+      "id": "f9e939b2-fdd0-4895-b624-14395a30a660",
+      "requestCount": 1,
+      "createdAt": "2025-11-26T19:01:45.832Z"
     }
   ],
   "issueReports": [
@@ -39411,7 +39423,17 @@
       "id": "be92e125-85c8-4d00-ac59-aca82392c87d",
       "status": "pending",
       "createdAt": "2025-11-26T17:08:43.428Z"
+    },
+    {
+      "issueType": "video_issue",
+      "title": "Video player not loading on mobile",
+      "description": "When I try to watch episodes on my iPhone, the video player shows a black screen. Audio plays but no video. Works fine on desktop.",
+      "url": "http://localhost:5000/watch/stranger-things/1/1",
+      "email": "mobile-user@example.com",
+      "id": "6df3035f-b6ab-4adc-95b8-8128fa7de7f8",
+      "status": "pending",
+      "createdAt": "2025-11-26T19:01:47.905Z"
     }
   ],
-  "lastUpdated": "2025-11-26T18:16:19.962Z"
+  "lastUpdated": "2025-11-26T19:01:47.905Z"
 }
