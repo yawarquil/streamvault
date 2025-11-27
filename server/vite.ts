@@ -105,6 +105,8 @@ export function serveStatic(app: Express) {
   // fall through to index.html if the file doesn't exist
   app.use("*", (req, res, next) => {
     console.log(`[Catch-all] Handling request: ${req.method} ${req.path}`);
+    console.log(`[Catch-all] Original URL: ${req.originalUrl}`);
+    console.log(`[Catch-all] Base URL: ${req.baseUrl}`);
     console.log(`[Catch-all] User-Agent: ${req.headers['user-agent']}`);
     
     // If this is an asset request that reached here, it means the file doesn't exist
@@ -138,9 +140,12 @@ export function serveStatic(app: Express) {
     };
 
     const indexPath = path.resolve(distPath, "index.html");
+    const requestPath = req.originalUrl.split('?')[0]; // Get path without query params
+    
+    console.log(`[Meta Tags] Checking path: ${requestPath}`);
     
     // Handle show detail pages
-    const showMatch = req.path.match(/^\/show\/([^\/]+)/);
+    const showMatch = requestPath.match(/^\/show\/([^\/]+)/);
     if (showMatch) {
       const slug = showMatch[1];
       console.log(`[Meta Tags] Show page: ${slug}`);
@@ -188,7 +193,7 @@ export function serveStatic(app: Express) {
     }
 
     // Handle episode watch pages
-    const watchMatch = req.path.match(/^\/watch\/([^\/]+)/);
+    const watchMatch = requestPath.match(/^\/watch\/([^\/]+)/);
     if (watchMatch) {
       const slug = watchMatch[1];
       const season = req.query.season as string;
@@ -239,7 +244,7 @@ export function serveStatic(app: Express) {
     }
 
     // Handle movie detail pages
-    const movieMatch = req.path.match(/^\/movie\/([^\/]+)/);
+    const movieMatch = requestPath.match(/^\/movie\/([^\/]+)/);
     if (movieMatch) {
       const slug = movieMatch[1];
       console.log(`[Meta Tags] Movie page: ${slug}`);
@@ -274,7 +279,7 @@ export function serveStatic(app: Express) {
     }
 
     // Handle movie watch pages
-    const watchMovieMatch = req.path.match(/^\/watch-movie\/([^\/]+)/);
+    const watchMovieMatch = requestPath.match(/^\/watch-movie\/([^\/]+)/);
     if (watchMovieMatch) {
       const slug = watchMovieMatch[1];
       console.log(`[Meta Tags] Movie watch page: ${slug}`);
