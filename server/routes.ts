@@ -7,6 +7,18 @@ import type { InsertEpisode } from "@shared/schema";
 import { readFileSync, existsSync } from "fs";
 import { setupSitemaps } from "./sitemap";
 import { sendContentRequestEmail, sendIssueReportEmail } from "./email-service";
+import { 
+  handleShowMetaTags, 
+  handleEpisodeMetaTags, 
+  handleMovieMetaTags, 
+  handleMovieWatchMetaTags,
+  injectMetaTags 
+} from "./meta-tags";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Admin credentials (in production, use environment variables and hashed passwords)
 const ADMIN_USERNAME = "admin";
@@ -1102,6 +1114,54 @@ export async function registerRoutes(app: Express): Promise<Server> {
     } catch (error) {
       res.status(500).send('Error generating sitemap');
     }
+  });
+
+  const indexHtmlPath = join(__dirname, '..', 'dist', 'public', 'index.html');
+  
+  // Helper function to serve HTML with meta tags
+  async function serveWithMetaTags(req: any, res: any, metaTagsHandler: Function) {
+    try {
+      // Check if index.html exists
+      if (!existsSync(indexHtmlPath)) {
+        return res.status(404).send('Not found');
+      }
+      
+      const metaTags = await metaTagsHandler(req, res, storage);
+      
+      if (!metaTags) {
+        // If no meta tags (content not found), serve default HTML
+        return res.sendFile(indexHtmlPath);
+      }
+      
+      let html = readFileSync(indexHtmlPath, 'utf-8');
+      html = injectMetaTags(html, metaTags);
+      
+      res.setHeader('Content-Type', 'text/html');
+      res.send(html);
+    } catch (error) {
+      console.error('Error serving meta tags:', error);
+      res.sendFile(indexHtmlPath);
+    }
+  }
+  
+  // Show detail page
+  app.get('/show/:slug', async (req, res) => {
+    await serveWithMetaTags(req, res, handleShowMetaTags);
+  });
+  
+  // Episode watch page
+  app.get('/watch/:slug', async (req, res) => {
+    await serveWithMetaTags(req, res, handleEpisodeMetaTags);
+  });
+  
+  // Movie detail page
+  app.get('/movie/:slug', async (req, res) => {
+    await serveWithMetaTags(req, res, handleMovieMetaTags);
+  });
+  
+  // Movie watch page
+  app.get('/watch-movie/:slug', async (req, res) => {
+    await serveWithMetaTags(req, res, handleMovieWatchMetaTags);
   });
 
   const httpServer = createServer(app);
