@@ -1088,11 +1088,28 @@ export async function registerRoutes(app: Express): Promise<Server> {
         const episodes = await storage.getEpisodesByShowId(show.id);
         for (const episode of episodes) {
           sitemap += '  <url>\n';
-          sitemap += `    <loc>${baseUrl}/watch/${show.slug}?episode=${episode.id}</loc>\n`;
+          sitemap += `    <loc>${baseUrl}/watch/${show.slug}?season=${episode.season}&amp;episode=${episode.episodeNumber}</loc>\n`;
           sitemap += '    <changefreq>monthly</changefreq>\n';
           sitemap += '    <priority>0.6</priority>\n';
           sitemap += '  </url>\n';
         }
+      }
+      
+      // Movie pages
+      const movies = await storage.getAllMovies();
+      for (const movie of movies) {
+        sitemap += '  <url>\n';
+        sitemap += `    <loc>${baseUrl}/movie/${movie.slug}</loc>\n`;
+        sitemap += '    <changefreq>weekly</changefreq>\n';
+        sitemap += '    <priority>0.8</priority>\n';
+        sitemap += '  </url>\n';
+        
+        // Movie watch page
+        sitemap += '  <url>\n';
+        sitemap += `    <loc>${baseUrl}/watch-movie/${movie.slug}</loc>\n`;
+        sitemap += '    <changefreq>monthly</changefreq>\n';
+        sitemap += '    <priority>0.6</priority>\n';
+        sitemap += '  </url>\n';
       }
 
       sitemap += '</urlset>';
